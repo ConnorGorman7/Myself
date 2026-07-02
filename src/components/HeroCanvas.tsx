@@ -8,12 +8,11 @@ const DAMPING = 0.82;
 const COLOR_LERP = 0.04;
 const PHASE_HOLD_MS = 4000;   // how long each shape holds before scattering
 const SCATTER_MS = 3500;      // how long particles float freely between phases
-const SCATTER_DAMPING = 0.994; // near 1 = particles coast a long time
+const SCATTER_DAMPING = 0.985; // higher friction so particles settle before next phase
 const DRIFT_SPRING = 0.0003;  // tiny pull toward canvas center during drift
 const SAMPLE_RES = 100;       // offscreen canvas width for photo/motif sampling
-const SAMPLE_RES_TEXT = 200;  // text uses a wider canvas for cleaner letterforms
 const PARTICLE_SIZE = 2;
-const GREEN = { r: 57, g: 255, b: 136 } as const;
+const GREEN = { r: 90, g: 140, b: 110 } as const;
 
 interface Particle {
   x: number; y: number;
@@ -199,7 +198,6 @@ export function HeroCanvas() {
     function buildPhases(img?: HTMLImageElement) {
       if (!W || !H) return;
       const sH = Math.round(SAMPLE_RES * (H / W));
-      const textSH = Math.round(SAMPLE_RES_TEXT * (H / W));
 
       const photoCanvas = img
         ? makePhotoCanvas(img, SAMPLE_RES, sH)
@@ -207,8 +205,8 @@ export function HeroCanvas() {
 
       phases = [
         sampleOffscreen(photoCanvas, N, W, H),
-        // Higher threshold (90) = only solid pixel centers, no antialiased fuzz → sharper letters
-        sampleOffscreen(makeTextCanvas("Connor Gorman", "AI Engineer", SAMPLE_RES_TEXT, textSH), N, W, H, 90),
+        // Full-size text canvas: renders at ~90px font vs ~19px before → clean letterforms
+        sampleOffscreen(makeTextCanvas("Connor Gorman", "AI Engineer", W, H), N, W, H, 90),
         sampleOffscreen(makeMotifCanvas(SAMPLE_RES, sH), N, W, H),
       ];
     }
@@ -219,7 +217,7 @@ export function HeroCanvas() {
       scattering = true;
       for (const p of particles) {
         const angle = Math.random() * Math.PI * 2;
-        const speed = 0.8 + Math.random() * 2.2;
+        const speed = 0.5 + Math.random() * 1.5;
         p.vx += Math.cos(angle) * speed;
         p.vy += Math.sin(angle) * speed;
         p.tr = GREEN.r; p.tg = GREEN.g; p.tb = GREEN.b;
@@ -239,6 +237,8 @@ export function HeroCanvas() {
         const s = targets[i % targets.length];
         p.tx = s.x;
         p.ty = s.y;
+        p.vx = 0;
+        p.vy = 0;
         if (phase === 0 && usePhotoColors) {
           p.tr = s.r; p.tg = s.g; p.tb = s.b;
         } else {
@@ -262,11 +262,6 @@ export function HeroCanvas() {
     function tick() {
       if (!W || !H) { rafId = requestAnimationFrame(tick); return; }
       ctxEl.clearRect(0, 0, W, H);
-
-      const allGreen = scattering || particles.every(
-        p => p.tr === GREEN.r && p.tg === GREEN.g && p.tb === GREEN.b
-      );
-      if (allGreen) ctxEl.fillStyle = `rgb(${GREEN.r},${GREEN.g},${GREEN.b})`;
 
       for (const p of particles) {
         if (prefersReduced) {
@@ -296,7 +291,12 @@ export function HeroCanvas() {
           p.b += (p.tb - p.b) * COLOR_LERP;
         }
 
-        if (!allGreen) ctxEl.fillStyle = `rgb(${p.r | 0},${p.g | 0},${p.b | 0})`;
+        // Snap to target color once converged to avoid sub-pixel color drift
+        if (Math.abs(p.r - p.tr) < 1 && Math.abs(p.g - p.tg) < 1 && Math.abs(p.b - p.tb) < 1) {
+          p.r = p.tr; p.g = p.tg; p.b = p.tb;
+        }
+
+        ctxEl.fillStyle = `rgb(${p.r | 0},${p.g | 0},${p.b | 0})`;
         ctxEl.fillRect(p.x | 0, p.y | 0, PARTICLE_SIZE, PARTICLE_SIZE);
       }
 
@@ -332,11 +332,22 @@ export function HeroCanvas() {
     });
     ro.observe(wrapEl);
 
+    function handleVisibility() {
+      if (document.hidden) {
+        cancelAnimationFrame(rafId);
+        rafId = 0;
+      } else if (!destroyed && rafId === 0) {
+        rafId = requestAnimationFrame(tick);
+      }
+    }
+    document.addEventListener("visibilitychange", handleVisibility);
+
     return () => {
       destroyed = true;
       cancelAnimationFrame(rafId);
       if (phaseTimer) clearTimeout(phaseTimer);
       ro.disconnect();
+      document.removeEventListener("visibilitychange", handleVisibility);
     };
   }, []);
 

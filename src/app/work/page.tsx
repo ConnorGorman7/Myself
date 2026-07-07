@@ -76,7 +76,9 @@ export default function Work() {
                 GitHub ↗
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/connor-gorman7"
+                target="_blank"
+                rel="noreferrer"
                 className="font-mono text-xs text-text-dim transition-colors hover:text-green"
               >
                 LinkedIn ↗

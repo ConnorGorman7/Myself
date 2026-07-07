@@ -36,7 +36,7 @@ without scrolling.
 | `--bg-elevated` | `#121414` | Cards, panels, the hero stage frame |
 | `--bg-hover` | `#16201a` | Hover state for dark surfaces (buttons, list rows) |
 | `--border` | `#1c1f1d` | Default hairline borders on dark surfaces |
-| `--green` | `#39ff88` | Primary accent — CTAs, links, active states, hero particles at full brightness |
+| `--green` | `#0B6623` | Primary accent — CTAs, links, active states, hero particles at full brightness |
 | `--green-dim` | `#1c5c3a` | Secondary accent — borders, dividers, inactive/idle states |
 | `--text` | `#e8efe9` | Primary text on dark backgrounds |
 | `--text-dim` | `#8a9590` | Secondary/muted text, labels, captions |
@@ -184,7 +184,7 @@ here comes from **border + subtle glow**, not shadow stacking.
 **Quick reference**
 ```
 bg: #0a0b0c        bg-elevated: #121414     bg-hover: #16201a
-border: #1c1f1d    green: #39ff88           green-dim: #1c5c3a
+border: #1c1f1d    green: #0B6623           green-dim: #1c5c3a
 text: #e8efe9      text-dim: #8a9590
 ```
 

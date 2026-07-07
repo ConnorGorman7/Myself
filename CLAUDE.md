@@ -56,6 +56,6 @@ Things that are genuinely unresolved — ask rather than assuming an answer:
 Quick color reference (see `DESIGN.md` for full rationale and usage rules):
 ```
 bg: #0a0b0c          bg-elevated: #121414     bg-hover: #16201a
-border: #1c1f1d      green: #39ff88           green-dim: #1c5c3a
+border: #1c1f1d      green: #0B6623           green-dim: #1c5c3a
 text: #e8efe9         text-dim: #8a9590
 ```

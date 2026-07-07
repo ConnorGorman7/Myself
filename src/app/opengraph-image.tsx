@@ -25,7 +25,7 @@ export default async function OgImage() {
           style={{
             width: "100%",
             height: "2px",
-            background: "#39ff88",
+            background: "#0B6623",
             marginBottom: "40px",
             opacity: 0.4,
           }}
@@ -44,7 +44,7 @@ export default async function OgImage() {
         <div
           style={{
             fontSize: 28,
-            color: "#39ff88",
+            color: "#0B6623",
             marginTop: 20,
             fontFamily: "monospace",
           }}

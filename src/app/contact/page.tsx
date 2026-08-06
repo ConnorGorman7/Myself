@@ -5,6 +5,8 @@ import { ClientIntakeDialog } from "@/components/ClientIntakeDialog";
 
 export const metadata: Metadata = {
   title: "Contact — Connor Gorman",
+  description:
+    "Get in touch with Connor Gorman — for AI engineering contract work, or to connect about career opportunities.",
 };
 
 const EMAIL = "connorgorman@live.ca";

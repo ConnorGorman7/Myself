@@ -40,6 +40,20 @@ export const metadata: Metadata = {
   },
 };
 
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Connor Gorman",
+  url: "https://connorgorman.ca",
+  jobTitle: "AI Engineer",
+  description:
+    "AI Engineer building intelligent systems at the intersection of ML and product.",
+  sameAs: [
+    "https://www.linkedin.com/in/connor-gorman7",
+    "https://github.com/ConnorGorman7",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -50,6 +64,12 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} dark h-full scroll-smooth antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
+      </head>
       <body className="flex min-h-full flex-col">
         <a
           href="#main-content"

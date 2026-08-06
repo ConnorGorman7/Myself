@@ -89,11 +89,15 @@ monospace used sparingly as a *technical accent*, not as the whole identity
   cutting away. This only needs to work going *into* the route, not back.
 - Card surface: `--bg-elevated`, `--border` hairline, no shadow (see §6).
 
-**Contact intents** (`/contact`)
-- 2–3 large clickable cards, not a single generic form — each routes to a
-  different flow (e.g. "hire me for a project," "I have an idea," "just
-  want to say hi"). Each intent should read as a distinct destination, not
-  a styled radio button.
+**Contact paths** (`/contact`)
+- Two audience cards, not a single generic form. "For clients" opens a
+  compact intake dialog (`ClientIntakeDialog`) that asks one short question
+  per step — pain point → company context → existing systems → timeline —
+  with name/email collected on the final step, then submits as a structured
+  prefilled email. Never show all questions at once. "For recruiters" is
+  direct links only: email, LinkedIn, GitHub — zero friction, no form.
+- The intake dialog stays small: bottom sheet on mobile (max-height ~85vh,
+  scrollable), compact centered card (~28rem) on desktop. Never full-screen.
 
 **Hero stage**
 - A bordered, slightly-elevated frame (`--bg-elevated`, `--border`,
@@ -105,9 +109,11 @@ monospace used sparingly as a *technical accent*, not as the whole identity
 
 ## 5. Layout Principles
 
-- **Soft split, not a hard toggle.** The landing page offers two paths
-  ("see what I'm building" → `/work`, "work with me" → `/studio`) as a
-  choice within one page, not a literal switch/toggle UI.
+- **Soft split, not a hard toggle.** The landing page offers two paths as
+  audience-first cards ("For recruiters — my career, projects & experience"
+  → `/work`, "For clients — hire me to build AI for your product" →
+  `/studio`) as a choice within one page, not a literal switch/toggle UI.
+  Each card must say who it's for before what it links to.
 - **One signature screen first.** Before extending the visual language
   broadly, get one screen exactly right and let everything else extend from
   it. For this project that's the hero; for SweatTax it was the pact result
@@ -176,6 +182,13 @@ here comes from **border + subtle glow**, not shadow stacking.
 - Nav collapses to a minimal mobile pattern; given there's no blog and a
   small number of top-level routes (`/work`, `/studio`, `/contact`), avoid
   a heavy hamburger-menu pattern if a simpler persistent layout will do.
+- Nav is context-aware: `work` and `studio` never appear together, and
+  `contact` is not in the bar at all — each lane carries its own contact
+  (direct links on `/work`, the intake dialog on `/studio`). The landing
+  page shows no section links (the split cards are the nav); inside a lane
+  the bar shows only that lane. Switching lanes happens by clicking the
+  name back to the landing split — once a visitor picks a path, they stay
+  on it.
 
 ---
 
@@ -195,8 +208,9 @@ text: #e8efe9      text-dim: #8a9590
 - "Using DESIGN.md, build the `/studio` page — results-first, fewer
   animations than `/work`, demo embed above the fold, contact visibly
   reachable without scrolling."
-- "Using DESIGN.md, build the `/contact` page with 2–3 clickable intent
-  cards instead of a single form."
+- "Using DESIGN.md, build the `/contact` page with two audience cards —
+  a client intake dialog and direct recruiter links — instead of a single
+  generic form."
 - "Using DESIGN.md and the hero pixel-morph prototype in
   `prototypes/hero-pixel-morph.html`, port the animation into a React
   component for the landing page hero, respecting `prefers-reduced-motion`."

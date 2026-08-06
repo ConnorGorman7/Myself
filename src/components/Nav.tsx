@@ -3,14 +3,27 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const links = [
-  { href: "/work", label: "work" },
-  { href: "/studio", label: "studio" },
-  { href: "/contact", label: "contact" },
-];
+/**
+ * Context-aware nav: once a visitor picks a lane on the landing split,
+ * the other lane never appears up here. Switching lanes = clicking the
+ * name back to the landing choice. Contact lives in each lane's own page
+ * (direct links on /work, the intake dialog on /studio), not up here.
+ */
+function linksFor(pathname: string) {
+  if (pathname.startsWith("/work")) {
+    return [{ href: "/work", label: "work" }];
+  }
+  if (pathname.startsWith("/studio")) {
+    return [{ href: "/studio", label: "studio" }];
+  }
+  // Landing (and anything else): the split cards are the navigation.
+  return [];
+}
 
 export function Nav() {
   const pathname = usePathname();
+  const links = linksFor(pathname);
+
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-bg/80 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">

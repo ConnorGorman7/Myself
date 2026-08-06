@@ -8,9 +8,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - `/work` — personality-forward career portfolio for recruiters
 - `/studio` — results-first client pitch page, mobile-first in testing order
-- `/contact` — 2–3 intent-based clickable cards (not a generic form)
+- `/contact` — two audience paths: clients get a compact intake dialog (`ClientIntakeDialog`, onboarding questions → structured mailto); recruiters get direct email/LinkedIn/GitHub links. No generic contact form.
 
-The landing page offers both paths as a soft split within one page, not a toggle UI. No blog — socials cover that.
+The landing page offers both paths as a soft split within one page — audience-first cards ("For recruiters" / "For clients"), not a toggle UI. No blog — socials cover that.
 
 ## Tech Stack
 
@@ -20,7 +20,7 @@ The landing page offers both paths as a soft split within one page, not a toggle
 - **Hero animation**: tsParticles, using its `shape-image` / `shape-text` plugins for the photo→name→motif morph. Use tsParticles' own movement/transition config — don't hand-roll particle physics. A standalone prototype lives (or will live) at `prototypes/hero-pixel-morph.html`; port from there rather than rebuilding from scratch.
 - **Hosting**: Vercel, connected to GitHub for auto-deploy + per-branch previews
 - **Domain/DNS**: Porkbun, A/CNAME records (not a nameserver swap — preserves existing email forwarding)
-- **Contact**: not yet decided — Resend vs. Cal.com, pending final contact-page intents. Don't pick one unprompted.
+- **Contact**: backend not yet decided — Resend vs. Cal.com. Don't pick one unprompted. Meanwhile the client intake dialog submits via a structured `mailto:` (prefilled subject + body), so swapping in a real backend later only touches `ClientIntakeDialog`'s submit handler.
 
 **Commands**:
 ```
@@ -47,7 +47,7 @@ Things that are genuinely unresolved — ask rather than assuming an answer:
 - Contact tool: Resend vs. Cal.com
 - Exact typography (current `DESIGN.md` typography section is a proposal, not locked)
 - Final shape/parameters of the hero's abstract motif
-- Landing page copy (soft-split framing) and contact page intent wording
+- Copy polish: landing/contact *structure* is locked (audience-first split, client intake + recruiter links, decided 2026-07-09), but the exact wording of card descriptions and intake questions is draft — Connor may revise
 
 ## Design System
 

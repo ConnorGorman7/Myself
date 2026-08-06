@@ -4,20 +4,36 @@ import { FadeUp } from "@/components/FadeUp";
 export default function Home() {
   return (
     <main className="flex min-h-full flex-1 flex-col items-center justify-center gap-10 p-8">
-      {/* Soft split */}
-      <FadeUp className="w-full max-w-xl">
+      {/* Soft split — each path leads with who it's for */}
+      <FadeUp className="w-full max-w-2xl">
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link
             href="/work"
-            className="flex flex-1 items-center justify-center rounded-md border border-green-dim bg-bg-elevated px-6 py-5 font-mono text-sm text-green transition duration-200 hover:border-green hover:bg-bg-hover"
+            className="group flex flex-1 flex-col gap-3 rounded-md border border-green-dim bg-bg-elevated p-6 transition duration-200 hover:border-green hover:bg-bg-hover"
           >
-            [see what I&apos;m building]
+            <span className="font-mono text-xs uppercase tracking-widest text-green">
+              For recruiters
+            </span>
+            <span className="text-sm text-foreground">
+              My career, projects &amp; experience{" "}
+              <span className="inline-block transition-transform duration-200 group-hover:translate-x-1">
+                →
+              </span>
+            </span>
           </Link>
           <Link
             href="/studio"
-            className="flex flex-1 items-center justify-center rounded-md border border-green-dim bg-bg-elevated px-6 py-5 font-mono text-sm text-green transition duration-200 hover:border-green hover:bg-bg-hover"
+            className="group flex flex-1 flex-col gap-3 rounded-md border border-green-dim bg-bg-elevated p-6 transition duration-200 hover:border-green hover:bg-bg-hover"
           >
-            [work with me]
+            <span className="font-mono text-xs uppercase tracking-widest text-green">
+              For clients
+            </span>
+            <span className="text-sm text-foreground">
+              Hire me to build AI for your product{" "}
+              <span className="inline-block transition-transform duration-200 group-hover:translate-x-1">
+                →
+              </span>
+            </span>
           </Link>
         </div>
       </FadeUp>

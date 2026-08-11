@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "businesses": {
+    "baja-craft-kitchen": {
+      "name": "Baja Craft Kitchen",
+      "address": "253 Ontario St A, Kingston, ON K7L 4X8, Canada",
+      "placeId": "ChIJERdtepar0kwRurwisyeDbN4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJERdtepar0kwRurwisyeDbN4"
+    },
+    "black-dog": {
+      "name": "Black Dog",
+      "address": "69 Brock St, Kingston, ON K7L 1R8, Canada",
+      "placeId": "ChIJnb1XIv-q0kwRQe8E21s6EBM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJnb1XIv-q0kwRQe8E21s6EBM"
+    },
+    "chez-piggy-restaurant-bar": {
+      "name": "Chez Piggy Restaurant & Bar",
+      "address": "68 Princess St, Kingston, ON K7L 1A5, Canada",
+      "placeId": "ChIJBbqhOP-q0kwRzezFc6dbtxg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJBbqhOP-q0kwRzezFc6dbtxg"
+    },
+    "diannes": {
+      "name": "Dianne's",
+      "address": "195 Ontario St, Kingston, ON K7L 2Y7, Canada",
+      "placeId": "ChIJM2niNvmq0kwRDX5JT2WQ0qI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJM2niNvmq0kwRDX5JT2WQ0qI"
+    },
+    "one-eyed-jack-restaurant-bar-kingston": {
+      "name": "One Eyed Jack Restaurant + Bar Kingston",
+      "address": "417 Weller Ave, Kingston, ON K7K 6K3, Canada",
+      "placeId": "ChIJd8eyGyCr0kwRsUxQlcm56Jo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJd8eyGyCr0kwRsUxQlcm56Jo"
+    },
+    "tango-nuevo": {
+      "name": "Tango Nuevo",
+      "address": "331 King St E, Kingston, ON K7L 3B5, Canada",
+      "placeId": "ChIJwRDYLf-q0kwRDDAWRWD2PXc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJwRDYLf-q0kwRDDAWRWD2PXc"
+    },
+    "the-patio-at-aquaterra": {
+      "name": "The Patio at AquaTerra",
+      "address": "1 Johnson St, Kingston, ON K7L 5H7, Canada",
+      "placeId": "ChIJYRGvewCr0kwR8B8t5lAUYXA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYRGvewCr0kwR8B8t5lAUYXA"
+    },
+    "toastery": {
+      "name": "TOASTERY",
+      "address": "260 Princess St, Kingston, ON K7L 1B5, Canada",
+      "placeId": "ChIJcynJn3Or0kwRXNd61ore_qY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJcynJn3Or0kwRXNd61ore_qY"
+    },
+    "ghost-taco-something-in-the-water-brewing-co": {
+      "name": "Ghost Taco @ Something in the Water Brewing Co.",
+      "address": "275 Princess St, Kingston, ON K7L 1B5, Canada",
+      "placeId": "ChIJMxzyUwKr0kwRA-lCIOTSEpA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJMxzyUwKr0kwRA-lCIOTSEpA"
+    },
+    "le-jardin": {
+      "name": "Le Jardin",
+      "address": "345 King St E, Kingston, ON K7L 3B5, Canada",
+      "placeId": "ChIJC-hKzOur0kwR-h1MtiQfNMQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJC-hKzOur0kwR-h1MtiQfNMQ"
+    }
+  }
+}

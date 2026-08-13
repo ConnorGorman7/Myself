@@ -1,65 +1,1342 @@
 {
   "version": 1,
   "businesses": {
-    "baja-craft-kitchen": {
-      "name": "Baja Craft Kitchen",
-      "address": "253 Ontario St A, Kingston, ON K7L 4X8, Canada",
-      "placeId": "ChIJERdtepar0kwRurwisyeDbN4",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJERdtepar0kwRurwisyeDbN4"
+    "allure-hair-studio-and-spa": {
+      "name": "Allure Hair Studio And Spa",
+      "address": "296 Bagot St, Kingston, ON K7K 3B4, Canada",
+      "placeId": "ChIJqwrJrUar0kwRi3IIFGgQQ9Q",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJqwrJrUar0kwRi3IIFGgQQ9Q",
+      "score": 9
     },
-    "black-dog": {
-      "name": "Black Dog",
-      "address": "69 Brock St, Kingston, ON K7L 1R8, Canada",
-      "placeId": "ChIJnb1XIv-q0kwRQe8E21s6EBM",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJnb1XIv-q0kwRQe8E21s6EBM"
+    "fancy-nails-and-beauty-supplies": {
+      "name": "Fancy Nails and Beauty Supplies",
+      "address": "255 Bagot St Unit A, Kingston, ON K7L 3G4, Canada",
+      "placeId": "ChIJizJLS-Gr0kwR2bm0TWPTvIc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJizJLS-Gr0kwR2bm0TWPTvIc",
+      "score": 9
     },
-    "chez-piggy-restaurant-bar": {
-      "name": "Chez Piggy Restaurant & Bar",
-      "address": "68 Princess St, Kingston, ON K7L 1A5, Canada",
-      "placeId": "ChIJBbqhOP-q0kwRzezFc6dbtxg",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJBbqhOP-q0kwRzezFc6dbtxg"
+    "nice-nails-kingston": {
+      "name": "Nice Nails Kingston",
+      "address": "764 Gardiners Rd F002, Kingston, ON K7M 3X9, Canada",
+      "placeId": "ChIJH-DUElGs0kwRlPVRoAI5SAc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJH-DUElGs0kwRlPVRoAI5SAc",
+      "score": 9
     },
-    "diannes": {
-      "name": "Dianne's",
-      "address": "195 Ontario St, Kingston, ON K7L 2Y7, Canada",
-      "placeId": "ChIJM2niNvmq0kwRDX5JT2WQ0qI",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJM2niNvmq0kwRDX5JT2WQ0qI"
+    "oginis-barber-shop": {
+      "name": "Ogini's barber shop",
+      "address": "432 Princess Street, suite 2, 432 Princess St second floor, Kingston, ON K7L 1C2, Canada",
+      "placeId": "ChIJR1HFZQer0kwR7I7sbvd58rk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJR1HFZQer0kwR7I7sbvd58rk",
+      "score": 9
     },
-    "one-eyed-jack-restaurant-bar-kingston": {
-      "name": "One Eyed Jack Restaurant + Bar Kingston",
-      "address": "417 Weller Ave, Kingston, ON K7K 6K3, Canada",
-      "placeId": "ChIJd8eyGyCr0kwRsUxQlcm56Jo",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJd8eyGyCr0kwRsUxQlcm56Jo"
+    "angel-nails": {
+      "name": "Angel Nails",
+      "address": "284 Princess St, Kingston, ON K7L 1S3, Canada",
+      "placeId": "ChIJDSZsZgCr0kwR3aTdDm27tE0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJDSZsZgCr0kwR3aTdDm27tE0",
+      "score": 8
     },
-    "tango-nuevo": {
-      "name": "Tango Nuevo",
-      "address": "331 King St E, Kingston, ON K7L 3B5, Canada",
-      "placeId": "ChIJwRDYLf-q0kwRDDAWRWD2PXc",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJwRDYLf-q0kwRDDAWRWD2PXc"
+    "cher-mere-day-spa-west-end": {
+      "name": "Cher-Mere Day Spa West End",
+      "address": "787 Blackburn Mews, Kingston, ON K7P 2N5, Canada",
+      "placeId": "ChIJp4Lnlset0kwRSAk4c_c4ukA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJp4Lnlset0kwRSAk4c_c4ukA",
+      "score": 8
     },
-    "the-patio-at-aquaterra": {
-      "name": "The Patio at AquaTerra",
-      "address": "1 Johnson St, Kingston, ON K7L 5H7, Canada",
-      "placeId": "ChIJYRGvewCr0kwR8B8t5lAUYXA",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYRGvewCr0kwR8B8t5lAUYXA"
+    "cleopatras-nails": {
+      "name": "Cleopatras Nails",
+      "address": "49 Montreal St, Kingston, ON K7K 3E7, Canada",
+      "placeId": "ChIJ9wp--f-q0kwRFFMJXqAjdgg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ9wp--f-q0kwRFFMJXqAjdgg",
+      "score": 8
     },
-    "toastery": {
-      "name": "TOASTERY",
-      "address": "260 Princess St, Kingston, ON K7L 1B5, Canada",
-      "placeId": "ChIJcynJn3Or0kwRXNd61ore_qY",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJcynJn3Or0kwRXNd61ore_qY"
+    "eastside-barbershop": {
+      "name": "Eastside Barbershop",
+      "address": "841 15 Unit 4, Kingston, ON K7K 6L2, Canada",
+      "placeId": "ChIJodltdayr0kwRIDV_nTBLCzg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJodltdayr0kwRIDV_nTBLCzg",
+      "score": 8
     },
-    "ghost-taco-something-in-the-water-brewing-co": {
-      "name": "Ghost Taco @ Something in the Water Brewing Co.",
-      "address": "275 Princess St, Kingston, ON K7L 1B5, Canada",
-      "placeId": "ChIJMxzyUwKr0kwRA-lCIOTSEpA",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJMxzyUwKr0kwRA-lCIOTSEpA"
+    "elements-natural-therapies-spa": {
+      "name": "Elements Natural Therapies & Spa",
+      "address": "775 Strand Blvd, Kingston, ON K7P 2C2, Canada",
+      "placeId": "ChIJ_ZCidaSt0kwR4Q8uHSeegVQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ_ZCidaSt0kwR4Q8uHSeegVQ",
+      "score": 8
     },
-    "le-jardin": {
-      "name": "Le Jardin",
-      "address": "345 King St E, Kingston, ON K7L 3B5, Canada",
-      "placeId": "ChIJC-hKzOur0kwR-h1MtiQfNMQ",
-      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJC-hKzOur0kwR-h1MtiQfNMQ"
+    "fades-jimenez": {
+      "name": "Fades Jimenez",
+      "address": "86 Brock St, Kingston, ON K7L 1R9, Canada",
+      "placeId": "ChIJQ6r7Mp-r0kwR96MtWGSRvc4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQ6r7Mp-r0kwR96MtWGSRvc4",
+      "score": 8
+    },
+    "footstation-spa": {
+      "name": "FootStation Spa \u77e5\u8db3\u4e50",
+      "address": "263 Ontario St, Kingston, ON K7K 2X5, Canada",
+      "placeId": "ChIJ8XdA4M-r0kwRcaYKP_eaRJQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ8XdA4M-r0kwRcaYKP_eaRJQ",
+      "score": 8
+    },
+    "glow-spa-kingston": {
+      "name": "Glow Spa Kingston",
+      "address": "234 Princess St, Kingston, ON K7L 1B2, Canada",
+      "placeId": "ChIJw8ZLZvKr0kwRxd3U3uTlHGw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJw8ZLZvKr0kwRxd3U3uTlHGw",
+      "score": 8
+    },
+    "james-brett-coiffure": {
+      "name": "James Brett Coiffure",
+      "address": "189 Princess St, Kingston, ON K7L 3G5, Canada",
+      "placeId": "ChIJZ9xN7_-q0kwRraqfvHyTYPU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJZ9xN7_-q0kwRraqfvHyTYPU",
+      "score": 8
+    },
+    "kingston-community-health-centres": {
+      "name": "Kingston Community Health Centres",
+      "address": "263 Weller Ave Unit 4, Kingston, ON K7K 2V4, Canada",
+      "placeId": "ChIJTzT4yNyr0kwRQw69P7aB6gc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJTzT4yNyr0kwRQw69P7aB6gc",
+      "score": 8
+    },
+    "lauras-lovely-nails-spa": {
+      "name": "Laura's Lovely Nails & Spa",
+      "address": "761 Bayridge Dr, Kingston, ON K7P 2P1, Canada",
+      "placeId": "ChIJpaD3t6Wt0kwRNskBQAIRvqk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJpaD3t6Wt0kwRNskBQAIRvqk",
+      "score": 8
+    },
+    "m-p-nails": {
+      "name": "M.P. Nails",
+      "address": "311 Bagot St, Kingston, ON K7K 3B6, Canada",
+      "placeId": "ChIJK7hHif-q0kwR2dSQSxnUZ10",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJK7hHif-q0kwR2dSQSxnUZ10",
+      "score": 8
+    },
+    "sabaya-spa": {
+      "name": "Sabaya Spa",
+      "address": "186 Wellington St, Kingston, ON K7L 5M6, Canada",
+      "placeId": "ChIJ8aeODf-q0kwRHGSfRBU2I-Y",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ8aeODf-q0kwRHGSfRBU2I-Y",
+      "score": 8
+    },
+    "sarahs-nails-in-kingston-sarahsnailsinkingston": {
+      "name": "Sarah's Nails in Kingston @sarahsnailsinkingston",
+      "address": "1006 Princess St, Kingston, ON K7L 1H2, Canada",
+      "placeId": "ChIJ9_1_oJur0kwRpYFOnscqcoI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ9_1_oJur0kwRpYFOnscqcoI",
+      "score": 8
+    },
+    "sir-johnnies-barber-shop": {
+      "name": "Sir Johnnies Barber Shop",
+      "address": "35 Montreal St, Kingston, ON K7L 3G5, Canada",
+      "placeId": "ChIJl_sh5f-q0kwRMwIDqtR5COQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJl_sh5f-q0kwRMwIDqtR5COQ",
+      "score": 8
+    },
+    "soussans-barber-shop": {
+      "name": "Soussan's Barber Shop",
+      "address": "351 Princess St, Kingston, ON K7L 1B6, Canada",
+      "placeId": "ChIJYWuPvQCr0kwRTruGg0G0RRw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYWuPvQCr0kwRTruGg0G0RRw",
+      "score": 8
+    },
+    "the-loft-hair-studio": {
+      "name": "The Loft Hair Studio",
+      "address": "Smith Robinson Building, 27 Princess St, Kingston, ON K7L 1A3, Canada",
+      "placeId": "ChIJYea_sPiq0kwRn8S-OR6AdJc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYea_sPiq0kwRn8S-OR6AdJc",
+      "score": 8
+    },
+    "toms-barbershop": {
+      "name": "Tom's barbershop",
+      "address": "1121 John Counter Blvd, Kingston, ON K7K 6C7, Canada",
+      "placeId": "ChIJW-7Iy-6r0kwRnJ5e8mnUcA0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJW-7Iy-6r0kwRnJ5e8mnUcA0",
+      "score": 8
+    },
+    "total-look-hair-stylists": {
+      "name": "Total Look Hair Stylists",
+      "address": "187 Sydenham St, Kingston, ON K7K 3M3, Canada",
+      "placeId": "ChIJR3KbDACr0kwRM3MrmgtH0ws",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJR3KbDACr0kwRM3MrmgtH0ws",
+      "score": 8
+    },
+    "ak-nails-beauty-spa": {
+      "name": "AK Nails & Beauty Spa",
+      "address": "1642 Bath Rd, Kingston, ON K7M 0C1, Canada",
+      "placeId": "ChIJs5RzTSet0kwRoRwobO6VuXI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJs5RzTSet0kwRoRwobO6VuXI",
+      "score": 7
+    },
+    "amethyst-nail-studio": {
+      "name": "Amethyst Nail Studio",
+      "address": "2469 Princess St Unit 2, Kingston, ON K7M 3G4, Canada",
+      "placeId": "ChIJJUFb2TWt0kwRQ9-u1Dnkh0I",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJJUFb2TWt0kwRQ9-u1Dnkh0I",
+      "score": 7
+    },
+    "bellevue-beauty-bar-nails-spa": {
+      "name": "Bellevue Beauty Bar Nails & Spa",
+      "address": "2801 Princess St, Kingston, ON K7P 2X1, Canada",
+      "placeId": "ChIJkaxsHPGt0kwR1fWnUqcgeGM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJkaxsHPGt0kwR1fWnUqcgeGM",
+      "score": 7
+    },
+    "chrome-nails-and-spa": {
+      "name": "Chrome Nails and Spa",
+      "address": "Gardiners Town Centre, 500 Gardiners Rd Unit 5C, Kingston, ON K7M 7W9, Canada",
+      "placeId": "ChIJi6V9DXOt0kwReZYMTVugK0M",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJi6V9DXOt0kwReZYMTVugK0M",
+      "score": 7
+    },
+    "dinos-barber-shop": {
+      "name": "Dino's Barber Shop",
+      "address": "316 Princess St, Kingston, ON K7L 1B6, Canada",
+      "placeId": "ChIJqUxuvQCr0kwRfEQjNHCoPyA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJqUxuvQCr0kwRfEQjNHCoPyA",
+      "score": 7
+    },
+    "dolce-bella-spa-on-the-rideau": {
+      "name": "Dolce Bella Spa on the Rideau",
+      "address": "8 Cataraqui St, Kingston, ON K7K 1Z7, Canada",
+      "placeId": "ChIJ95eOp7Kr0kwRezc6vjVV8fw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ95eOp7Kr0kwRezc6vjVV8fw",
+      "score": 7
+    },
+    "elite-kingston-barbershop-elite-barbershop": {
+      "name": "Elite Kingston Barbershop ( Elite Barbershop)",
+      "address": "172 Division St, Kingston, ON K7L 3M8, Canada",
+      "placeId": "ChIJ_eirOaqr0kwRJ1XC2Txcb0o",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ_eirOaqr0kwRJ1XC2Txcb0o",
+      "score": 7
+    },
+    "envy-hair-studio": {
+      "name": "Envy Hair Studio",
+      "address": "328 Princess St, Kingston, ON K7L 1B6, Canada",
+      "placeId": "ChIJMa_ckQCr0kwRan0lEAbWBbw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJMa_ckQCr0kwRan0lEAbWBbw",
+      "score": 7
+    },
+    "fab-hair": {
+      "name": "FAB Hair",
+      "address": "211 Wellington St, Kingston, ON K7K 2Y6, Canada",
+      "placeId": "ChIJdbjiWf-q0kwR34sMT3S-8qc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJdbjiWf-q0kwR34sMT3S-8qc",
+      "score": 7
+    },
+    "jennifer-mcmullen-hair-owner-of-the-fox-hair-studio": {
+      "name": "Jennifer McMullen Hair - Owner of THE FOX HAIR STUDIO",
+      "address": "95 Concession St Ste 209, Kingston, ON K7K 2A8, Canada",
+      "placeId": "ChIJCx4CO0yr0kwRbkA3QSzRn9Y",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJCx4CO0yr0kwRbkA3QSzRn9Y",
+      "score": 7
+    },
+    "kingdom-nails-and-spa": {
+      "name": "Kingdom Nails And Spa",
+      "address": "625 Fortune Crescent, Kingston, ON K7P 0L5, Canada",
+      "placeId": "ChIJu2ZejdKt0kwRGTI28ftChco",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJu2ZejdKt0kwRGTI28ftChco",
+      "score": 7
+    },
+    "la-bella-beauty-bar": {
+      "name": "La Bella Beauty Bar",
+      "address": "271 Queen St, Kingston, ON K7K 1B5, Canada",
+      "placeId": "ChIJO0heh1Wq0kwRqHCCM6tQCvo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJO0heh1Wq0kwRqHCCM6tQCvo",
+      "score": 7
+    },
+    "la-sirene-nails-and-spa": {
+      "name": "La Sirene Nails and Spa",
+      "address": "97 Bath Rd Unit E105, Kingston, ON K7L 1H2, Canada",
+      "placeId": "ChIJRYr4C5ur0kwRkp6XagPxGFA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJRYr4C5ur0kwRkp6XagPxGFA",
+      "score": 7
+    },
+    "lan-nail-spa": {
+      "name": "Lan Nail & Spa",
+      "address": "546 Bath Rd Unit 4, Kingston, ON K7M 2Y3, Canada",
+      "placeId": "ChIJ-xTVSoes0kwRTYjUdMP9xVU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ-xTVSoes0kwRTYjUdMP9xVU",
+      "score": 7
+    },
+    "lily-nail-spa": {
+      "name": "Lily Nail & Spa",
+      "address": "2395 Princess St #10, Kingston, ON K7M 0C4, Canada",
+      "placeId": "ChIJYVfeV0as0kwR9hQ5Ms74G7o",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYVfeV0as0kwR9hQ5Ms74G7o",
+      "score": 7
+    },
+    "luxe-nails-and-spa": {
+      "name": "Luxe Nails and Spa",
+      "address": "687 Gardiners Rd, Kingston, ON K7M 3Y4, Canada",
+      "placeId": "ChIJvfZsjyet0kwR_XlANfoYRJ0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJvfZsjyet0kwR_XlANfoYRJ0",
+      "score": 7
+    },
+    "sol-spa": {
+      "name": "Sol Spa",
+      "address": "119 Princess Street, ENTRANCE AT REAR - Access from Angrove parking lot off, Wellington St Unit 3, Kingston, ON K7L 1A8, Canada",
+      "placeId": "ChIJdzabdf-q0kwR-nSDDvj8PlY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJdzabdf-q0kwR-nSDDvj8PlY",
+      "score": 7
+    },
+    "solace-spa-kingston": {
+      "name": "Solace Spa Kingston",
+      "address": "735G Arlington Park Place LOWER Unit G, Kingston, ON K7M 8M8, Canada",
+      "placeId": "ChIJiYgPGqSt0kwRW--vsaF3T9o",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJiYgPGqSt0kwRW--vsaF3T9o",
+      "score": 7
+    },
+    "teddy-nails-spa": {
+      "name": "Teddy Nails & Spa",
+      "address": "16 Bath Rd Unit 103, Kingston, ON K7L 1C4, Canada",
+      "placeId": "ChIJd1ZsIcGr0kwR19A8m34bbjA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJd1ZsIcGr0kwR19A8m34bbjA",
+      "score": 7
+    },
+    "tg-co-hair-studio": {
+      "name": "TG.co Hair Studio",
+      "address": "834 Gardiners Rd, Kingston, ON K7M 3X9, Canada",
+      "placeId": "ChIJ3WEb402s0kwRZCW6o1VlPSo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ3WEb402s0kwRZCW6o1VlPSo",
+      "score": 7
+    },
+    "the-mane-obsession-ltd": {
+      "name": "The Mane Obsession Ltd.",
+      "address": "755 Bayridge Dr, Kingston, ON K7P 2P2, Canada",
+      "placeId": "ChIJj3fbuaWt0kwRNaxghZn57No",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJj3fbuaWt0kwRNaxghZn57No",
+      "score": 7
+    },
+    "the-orchid-massage-wellness-centre": {
+      "name": "The Orchid - Massage & Wellness Centre",
+      "address": "652 Progress Ave, Kingston, ON K7M 4W9, Canada",
+      "placeId": "ChIJCfQxexmt0kwRdA501_fyctM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJCfQxexmt0kwRdA501_fyctM",
+      "score": 7
+    },
+    "vecchios-barber-shop": {
+      "name": "Vecchio's Barber Shop",
+      "address": "209 Wellington St, Kingston, ON K7K 2Y6, Canada",
+      "placeId": "ChIJC2fEbACr0kwRSjZSZbAnER0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJC2fEbACr0kwRSjZSZbAnER0",
+      "score": 7
+    },
+    "ashleys-esthetics-microblading": {
+      "name": "Ashley's Esthetics Microblading",
+      "address": "1036 Princess St, Kingston, ON K7L 1H2, Canada",
+      "placeId": "ChIJXVIhqlWq0kwRtFPLI8OcA3I",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJXVIhqlWq0kwRtFPLI8OcA3I",
+      "score": 6
+    },
+    "blunt-hair-studio": {
+      "name": "Blunt Hair Studio",
+      "address": "9 Princess St, Kingston, ON K7L 1A2, Canada",
+      "placeId": "ChIJqyFSv_iq0kwR3UyVyxV01z0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJqyFSv_iq0kwR3UyVyxV01z0",
+      "score": 6
+    },
+    "danimarie-aesthetics": {
+      "name": "Danimarie Aesthetics",
+      "address": "1036 Princess St Ste 105, Kingston, ON K7L 1H2, Canada",
+      "placeId": "ChIJoYRnAnOr0kwRgrh9lrGbT60",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJoYRnAnOr0kwRgrh9lrGbT60",
+      "score": 6
+    },
+    "deep-rooted-massage-kingston": {
+      "name": "Deep Rooted Massage - Kingston",
+      "address": "2795 Princess St, Kingston, ON K7P 2X1, Canada",
+      "placeId": "ChIJz_7KFuOt0kwRXCc8HT7woQo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJz_7KFuOt0kwRXCc8HT7woQo",
+      "score": 6
+    },
+    "echelon-wellness-kingston": {
+      "name": "Echelon Wellness Kingston",
+      "address": "1650 Bath Rd #101, Kingston, ON K7M 6X6, Canada",
+      "placeId": "ChIJnUUygBat0kwRknq0qED28Qo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJnUUygBat0kwRknq0qED28Qo",
+      "score": 6
+    },
+    "elevation-hair-studio": {
+      "name": "Elevation Hair Studio",
+      "address": "721 Progress Ave, Kingston, ON K7M 6S4, Canada",
+      "placeId": "ChIJGYxh2l-t0kwR141BTIkUNpY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJGYxh2l-t0kwR141BTIkUNpY",
+      "score": 6
+    },
+    "euphoria-hair-lounge": {
+      "name": "Euphoria Hair Lounge",
+      "address": "760 15, Kingston, ON K7L 0C3, Canada",
+      "placeId": "ChIJJZ0m0Bqr0kwRz3rRfUwcX14",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJJZ0m0Bqr0kwRz3rRfUwcX14",
+      "score": 6
+    },
+    "full-circle-health-network": {
+      "name": "Full Circle Health Network",
+      "address": "348 Bagot St #108, Kingston, ON K7K 3B7, Canada",
+      "placeId": "ChIJYdFuyP-q0kwRQ5GIarOX1o0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYdFuyP-q0kwRQ5GIarOX1o0",
+      "score": 6
+    },
+    "king-barbershop": {
+      "name": "KING BARBERSHOP",
+      "address": "123 Princess St, Kingston, ON K7L 1A8, Canada",
+      "placeId": "ChIJsdEUbACr0kwRkKHpDCa9ml0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJsdEUbACr0kwRkKHpDCa9ml0",
+      "score": 6
+    },
+    "level-up-barber-studio": {
+      "name": "Level Up Barber Studio",
+      "address": "inside of I.D. Beauty, 685 Gardiners Rd Unit 201, Kingston, ON K7M 3Y4, Canada",
+      "placeId": "ChIJV7TABn-t0kwRdwO5ZE5hLQM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJV7TABn-t0kwRdwO5ZE5hLQM",
+      "score": 6
+    },
+    "mercury-massage-therapy": {
+      "name": "Mercury Massage Therapy",
+      "address": "670 Fortune Crescent Unit 6, Kingston, ON K7P 2T3, Canada",
+      "placeId": "ChIJeWGjVTKs0kwR-Ic5JAP4rbI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJeWGjVTKs0kwR-Ic5JAP4rbI",
+      "score": 6
+    },
+    "new-path-spa-by-magda": {
+      "name": "New Path Spa By Magda",
+      "address": "729 Gardiners Rd, Kingston, ON K7M 3Y5, Canada",
+      "placeId": "ChIJSxnDzlas0kwR8XxZMamKOGE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJSxnDzlas0kwR8XxZMamKOGE",
+      "score": 6
+    },
+    "odc-medispa-kingston": {
+      "name": "ODC Medispa Kingston",
+      "address": "768 Blackburn Mews, Kingston, ON K7P 2N7, Canada",
+      "placeId": "ChIJj32wcXGt0kwRhhKc41ESn-s",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJj32wcXGt0kwRhhKc41ESn-s",
+      "score": 6
+    },
+    "saigon-nails-spa": {
+      "name": "Saigon Nails & Spa",
+      "address": "1786 Bath Rd, Kingston, ON K7M 4Y2, Canada",
+      "placeId": "ChIJX7bcNQCt0kwRapHyqSD7v2c",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJX7bcNQCt0kwRapHyqSD7v2c",
+      "score": 6
+    },
+    "studio-queen": {
+      "name": "Studio Queen",
+      "address": "188 Sydenham St, Kingston, ON K7K 3M2, Canada",
+      "placeId": "ChIJ_TXo1xar0kwRREP6LJ7D5l0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ_TXo1xar0kwRREP6LJ7D5l0",
+      "score": 6
+    },
+    "sweet-magnolia-day-spa": {
+      "name": "Sweet Magnolia day spa",
+      "address": "1758 Bath Rd, Kingston, ON K7M 4Y2, Canada",
+      "placeId": "ChIJT870Y9W10kwRR1ZpRGhHFNw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJT870Y9W10kwRR1ZpRGhHFNw",
+      "score": 6
+    },
+    "the-annex-spa": {
+      "name": "The Annex Spa",
+      "address": "802 John Marks Ave #3, Kingston, ON K7K 0J7, Canada",
+      "placeId": "ChIJ_Tz-NRSp0kwRRjArNEKEAdA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ_Tz-NRSp0kwRRjArNEKEAdA",
+      "score": 6
+    },
+    "the-hair-extension-room": {
+      "name": "The Hair + Extension Room",
+      "address": "296 Bagot St, Kingston, ON K7K 3B4, Canada",
+      "placeId": "ChIJxdHPSPnOFCMRpARL-LTwNMs",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJxdHPSPnOFCMRpARL-LTwNMs",
+      "score": 6
+    },
+    "the-live-well-centre": {
+      "name": "The Live Well Centre",
+      "address": "348 Bagot St #101, Kingston, ON K7K 3B7, Canada",
+      "placeId": "ChIJcak2QFWq0kwREe81Pq_4QPI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJcak2QFWq0kwREe81Pq_4QPI",
+      "score": 6
+    },
+    "the-refinery-spa-and-social-house": {
+      "name": "The Refinery Spa and Social House",
+      "address": "327 King St E, Kingston, ON K7L 3B5, Canada",
+      "placeId": "ChIJYSYusvSr0kwRNLC5H9VdyTw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYSYusvSr0kwRNLC5H9VdyTw",
+      "score": 6
+    },
+    "total-diva-boutique-spa": {
+      "name": "Total Diva Boutique Spa",
+      "address": "336 Princess St, Kingston, ON K7L 1B6, Canada",
+      "placeId": "ChIJXUk8kQCr0kwRhWgclwWvW2g",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJXUk8kQCr0kwRhWgclwWvW2g",
+      "score": 6
+    },
+    "wave-hair-studio": {
+      "name": "Wave Hair Studio",
+      "address": "395 Earl St, Kingston, ON K7L 2J6, Canada",
+      "placeId": "ChIJ5RZNURir0kwRWmBD7Jg0VAo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ5RZNURir0kwRWmBD7Jg0VAo",
+      "score": 6
+    },
+    "activehealth-massage-therapy": {
+      "name": "ActiveHealth Massage Therapy",
+      "address": "1330 Princess St, Kingston, ON K7M 3E2, Canada",
+      "placeId": "ChIJb0Bb53es0kwRT_vA-u06MrI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJb0Bb53es0kwRT_vA-u06MrI",
+      "score": 5
+    },
+    "aesthetics-by-arza-located-5-663-norris-ct-kingston-on": {
+      "name": "Aesthetics By Arza - located 5-663 Norris CT ,Kingston ON",
+      "address": "633 Norris Ct #5, Kingston, ON K7P 2R9, Canada",
+      "placeId": "ChIJx_Jj21yt0kwRMQ8ovoFCAaQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJx_Jj21yt0kwRMQ8ovoFCAaQ",
+      "score": 5
+    },
+    "aphrodite-hair-studio": {
+      "name": "Aphrodite Hair Studio",
+      "address": "86 Brock St, Kingston, ON K7L 1R9, Canada",
+      "placeId": "ChIJI55UGfSr0kwRtsyR0uyopeU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJI55UGfSr0kwRtsyR0uyopeU",
+      "score": 5
+    },
+    "axiom-wellness-centre": {
+      "name": "Axiom Wellness Centre",
+      "address": "1058 Gardiners Rd, Kingston, ON K7P 1R7, Canada",
+      "placeId": "ChIJLRoADJGt0kwRHCNTJZq7rzU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJLRoADJGt0kwRHCNTJZq7rzU",
+      "score": 5
+    },
+    "better-balance-wellness": {
+      "name": "Better Balance Wellness",
+      "address": "Main & Side Entrance, 293 Division St, Kingston, ON K7K 3Z7, Canada",
+      "placeId": "ChIJuzX5lECr0kwRbhTZPuJKNRk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJuzX5lECr0kwRbhTZPuJKNRk",
+      "score": 5
+    },
+    "brushez-hair-studio": {
+      "name": "Brushez Hair Studio",
+      "address": "827 Norwest Rd, Kingston, ON K7P 2N4, Canada",
+      "placeId": "ChIJT-nuhLOt0kwR3uC2KyArtRQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJT-nuhLOt0kwR3uC2KyArtRQ",
+      "score": 5
+    },
+    "centre-wellness": {
+      "name": "Centre Wellness",
+      "address": "920 Princess St #360, Kingston, ON K7L 1H1, Canada",
+      "placeId": "ChIJ35UWAuUKN0URnXeaZz5KRuI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ35UWAuUKN0URnXeaZz5KRuI",
+      "score": 5
+    },
+    "cheryl-hiebert-wellness": {
+      "name": "Cheryl Hiebert Wellness",
+      "address": "\u2105 Forever Young Chiropractic Clinic, 510 Canatara Ct Unit 2, Kingston, ON K7M 0G3, Canada",
+      "placeId": "ChIJ13UMXBet0kwRac8iSMBJfik",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ13UMXBet0kwRac8iSMBJfik",
+      "score": 5
+    },
+    "chic-hair-esthetics-centre": {
+      "name": "Chic Hair & Esthetics Centre",
+      "address": "350 King St E, Kingston, ON K7L 3B6, Canada",
+      "placeId": "ChIJO1d1N_-q0kwR2GBzmALGF0c",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJO1d1N_-q0kwR2GBzmALGF0c",
+      "score": 5
+    },
+    "childrens-wellness-centre": {
+      "name": "Children's Wellness Centre",
+      "address": "4 Cataraqui St #110, Kingston, ON K7K 1Z6, Canada",
+      "placeId": "ChIJy-q4RpdebYARFi8vaJ_VxJk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJy-q4RpdebYARFi8vaJ_VxJk",
+      "score": 5
+    },
+    "evergreen-health-collective": {
+      "name": "Evergreen Health Collective",
+      "address": "suite 305, 863 Princess St, Kingston, ON K7L 5N4, Canada",
+      "placeId": "ChIJUw9Aveit0kwRFxuEpALfE2s",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJUw9Aveit0kwRFxuEpALfE2s",
+      "score": 5
+    },
+    "fam-medical-aesthetics": {
+      "name": "FAM Medical Aesthetics",
+      "address": "780 Midpark Dr Ste 103, Kingston, ON K7M 7P6, Canada",
+      "placeId": "ChIJ3dPL4aGt0kwRely19hXpCzY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ3dPL4aGt0kwRely19hXpCzY",
+      "score": 5
+    },
+    "greenhaven-massage-therapy": {
+      "name": "Greenhaven Massage Therapy",
+      "address": "Venture Business Centre, 556 O'Connor Dr, Kingston, ON K7P 1N3, Canada",
+      "placeId": "ChIJWXp2Evys0kwRTOnIe8HSbxU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJWXp2Evys0kwRTOnIe8HSbxU",
+      "score": 5
+    },
+    "hair-of-the-dog-barber-pub": {
+      "name": "Hair of the Dog Barber & Pub",
+      "address": "390 King St E, Kingston, ON K7K 2Y6, Canada",
+      "placeId": "ChIJsWNvXM-r0kwRANsw5OOp-AE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJsWNvXM-r0kwRANsw5OOp-AE",
+      "score": 5
+    },
+    "jimmy-hair-studio": {
+      "name": "Jimmy Hair Studio",
+      "address": "250 Ontario St, Kingston, ON K7L 5P7, Canada",
+      "placeId": "ChIJ-b5dxviq0kwREjm2c7sJifw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ-b5dxviq0kwREjm2c7sJifw",
+      "score": 5
+    },
+    "kings-town-massage-therapy-wellness": {
+      "name": "King's Town Massage Therapy & Wellness",
+      "address": "1187 Princess St Unit 7, Kingston, ON K7M 3E1, Canada",
+      "placeId": "ChIJcfioT_Kn0kwRAKnyfdPnhdQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJcfioT_Kn0kwRAKnyfdPnhdQ",
+      "score": 5
+    },
+    "kingston-massage-therapy": {
+      "name": "Kingston Massage Therapy",
+      "address": "1786 Bath Rd Unit 1, Kingston, ON K7M 4Y2, Canada",
+      "placeId": "ChIJa-8aoh-t0kwRyak8_AfcK2Q",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJa-8aoh-t0kwRyak8_AfcK2Q",
+      "score": 5
+    },
+    "kingston-nails-spa-salon": {
+      "name": "Kingston Nails Spa Salon",
+      "address": "1187 Princess St Unit 5, Kingston, ON K7M 3E1, Canada",
+      "placeId": "ChIJaXrYnHCr0kwRy0gb6VW7ePs",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJaXrYnHCr0kwRy0gb6VW7ePs",
+      "score": 5
+    },
+    "limestone-therapies": {
+      "name": "Limestone Therapies",
+      "address": "675 Arlington Park Pl, Kingston, ON K7M 7E4, Canada",
+      "placeId": "ChIJU-Bfh0is0kwRcwAJD6S4I18",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJU-Bfh0is0kwRcwAJD6S4I18",
+      "score": 5
+    },
+    "lotus-and-lavender-day-spa": {
+      "name": "Lotus and Lavender Day Spa",
+      "address": "3055 Princess St Suite 1, Kingston, ON K7P 0K3, Canada",
+      "placeId": "ChIJR29LiFut0kwRF93wfmKk1-Y",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJR29LiFut0kwRF93wfmKk1-Y",
+      "score": 5
+    },
+    "md-massage-therapy": {
+      "name": "MD Massage Therapy",
+      "address": "104 Cameron St #2, Kingston, ON K7K 4R8, Canada",
+      "placeId": "ChIJMzcsJtyr0kwRPkmbr7Ez4A8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJMzcsJtyr0kwRPkmbr7Ez4A8",
+      "score": 5
+    },
+    "oak-and-ivory-hair-co": {
+      "name": "Oak and Ivory Hair Co.",
+      "address": "132 Ontario St, Kingston, ON K7L 2Y4, Canada",
+      "placeId": "ChIJ21LCTJOr0kwRDkJAy20g0rk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ21LCTJOr0kwRDkJAy20g0rk",
+      "score": 5
+    },
+    "prana-healing": {
+      "name": "Prana Healing",
+      "address": "1217 Amanda Ct, Kingston, ON K7P 0C3, Canada",
+      "placeId": "ChIJ03208IGt0kwRT744Ax2NDkE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ03208IGt0kwRT744Ax2NDkE",
+      "score": 5
+    },
+    "salon-yetmir": {
+      "name": "Salon Yetmir",
+      "address": "727 Gardiners Rd, Kingston, ON K7M 3Y45, Canada",
+      "placeId": "ChIJq3AJ0las0kwRcb3IZ71MQ1A",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJq3AJ0las0kwRcb3IZ71MQ1A",
+      "score": 5
+    },
+    "simon-buchan-r-m-t": {
+      "name": "Simon Buchan, R.M.T.",
+      "address": "293 Division St Side Entrance, Kingston, ON K7K 3Z7, Canada",
+      "placeId": "ChIJI28oL4g2K4gRd--8TEsZd0s",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJI28oL4g2K4gRd--8TEsZd0s",
+      "score": 5
+    },
+    "symphony-spa-yoga": {
+      "name": "Symphony Spa & Yoga",
+      "address": "295 Brock St, Kingston, ON K7L 1S5, Canada",
+      "placeId": "ChIJQQerwwCr0kwRfGGQTH9NxxM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQQerwwCr0kwRfGGQTH9NxxM",
+      "score": 5
+    },
+    "the-artistry-collective": {
+      "name": "The Artistry Collective",
+      "address": "344 Bagot St, Kingston, ON K7K 3B7, Canada",
+      "placeId": "ChIJ5wrmZ1Wq0kwR0RLbbgfhoSM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ5wrmZ1Wq0kwR0RLbbgfhoSM",
+      "score": 5
+    },
+    "the-barbers-philosophy": {
+      "name": "The Barber's Philosophy",
+      "address": "190 Sydenham St, Kingston, ON K7K 3M2, Canada",
+      "placeId": "ChIJDZRScrpUhQoRX-98u9hbPxs",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJDZRScrpUhQoRX-98u9hbPxs",
+      "score": 5
+    },
+    "u-nail-spa": {
+      "name": "U Nail & Spa",
+      "address": "1206 high 15 #7, Kingston, ON K7L 0C4, Canada",
+      "placeId": "ChIJmwhgs8ep0kwR66egaB2DQKI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJmwhgs8ep0kwR66egaB2DQKI",
+      "score": 5
+    },
+    "wellington-acupuncture-massage": {
+      "name": "Wellington Acupuncture & Massage",
+      "address": "242 Wellington St, Kingston, ON K7K 2Y8, Canada",
+      "placeId": "ChIJI7mnhFWq0kwR6ituScBa9YM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJI7mnhFWq0kwR6ituScBa9YM",
+      "score": 5
+    },
+    "1212-spa": {
+      "name": "1212 SPA",
+      "address": "1212 hwy 2 east, Kingston, ON K7L 4V1, Canada",
+      "placeId": "ChIJe66k6EtVzUwRgIooImDZ1KE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJe66k6EtVzUwRgIooImDZ1KE",
+      "score": 3
+    },
+    "aura-skin-and-soul-care": {
+      "name": "Aura Skin and Soul Care",
+      "address": "Inside One Salon Suites, 1036 Princess St Ste 114, Kingston, ON K7L 1H2, Canada",
+      "placeId": "ChIJq7l58Kyt0kwR5xNBI_xt6OA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJq7l58Kyt0kwR5xNBI_xt6OA",
+      "score": 3
+    },
+    "kingston": {
+      "name": "Kingston",
+      "address": "Kingston, ON, Canada",
+      "placeId": "ChIJqY5AdAar0kwR6tnWFXdJpXY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJqY5AdAar0kwR6tnWFXdJpXY",
+      "score": 3
+    },
+    "trailhead": {
+      "name": "Trailhead",
+      "address": "262 Princess St, Kingston, ON K7L 1B5, Canada",
+      "placeId": "ChIJ_U8naQCr0kwRDjo3bFS20lQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ_U8naQCr0kwRDjo3bFS20lQ",
+      "score": 7
+    },
+    "heal-wellness": {
+      "name": "HEAL Wellness",
+      "address": "324 Princess St, Kingston, ON K7L 1B6, Canada",
+      "placeId": "ChIJQ07oVQ-r0kwRyesiS-neE-E",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQ07oVQ-r0kwRyesiS-neE-E",
+      "score": 8
+    },
+    "frontenac-cycle": {
+      "name": "Frontenac Cycle",
+      "address": "336 Barrie St, Kingston, ON K7K 3T1, Canada",
+      "placeId": "ChIJ29PXpwCr0kwRTxmDGnNJhYU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ29PXpwCr0kwRTxmDGnNJhYU",
+      "score": 5
+    },
+    "ray": {
+      "name": "Ray",
+      "address": "172 Division St, Kingston, ON K7L 3M8, Canada",
+      "placeId": "ChIJzfcyPq-r0kwRFf_Y5M4XT1I",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJzfcyPq-r0kwRFf_Y5M4XT1I",
+      "score": 3
+    },
+    "jinx-hair-lab": {
+      "name": "Jinx Hair Lab",
+      "address": "inside the Woodshed Workshops, 95 Concession St unit 444, Kingston, ON K7K 2A8, Canada",
+      "placeId": "ChIJsXmJBJKr0kwRaAesPhJB1FI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJsXmJBJKr0kwRaAesPhJB1FI",
+      "score": 5
+    },
+    "yellow-bike-action": {
+      "name": "Yellow Bike Action",
+      "address": "303 York St, Kingston, ON K7K 4M4, Canada",
+      "placeId": "ChIJjYKmOKmr0kwRts5Btm9yn2A",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJjYKmOKmr0kwRts5Btm9yn2A",
+      "score": 3
+    },
+    "princess-street-physiotherapy-sports-rehab-kingston-ontario": {
+      "name": "Princess Street Physiotherapy & Sports Rehab, Kingston, Ontario",
+      "address": "772 Princess St, Kingston, ON K7L 1G3, Canada",
+      "placeId": "ChIJ_WR0ccer0kwRtqTjTILEcYI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ_WR0ccer0kwRtqTjTILEcYI",
+      "score": 5
+    },
+    "jd-physiotherapy": {
+      "name": "JD Physiotherapy",
+      "address": "920 Princess St, Kingston, ON K7L 1H1, Canada",
+      "placeId": "ChIJBUFtTXyr0kwR2Imqxmx0lww",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJBUFtTXyr0kwR2Imqxmx0lww",
+      "score": 5
+    },
+    "magicuts": {
+      "name": "Magicuts",
+      "address": "1006 Princess St, Kingston, ON K7L 5G3, Canada",
+      "placeId": "ChIJ9_1_oJur0kwROueCTGAkQwE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ9_1_oJur0kwROueCTGAkQwE",
+      "score": 8
+    },
+    "wellwise-home-health-wellness": {
+      "name": "Wellwise Home Health & Wellness",
+      "address": "1011 Princess St, Kingston, ON K7L 1H3, Canada",
+      "placeId": "ChIJb0ceKpur0kwRfVB9aQVD5H0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJb0ceKpur0kwRfVB9aQVD5H0",
+      "score": 8
+    },
+    "porch-hair-salon": {
+      "name": "Porch Hair Salon",
+      "address": "827 Victoria St, Kingston, ON K7K 4T5, Canada",
+      "placeId": "ChIJ5VMOQOGr0kwR0C2Q5rvuzks",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ5VMOQOGr0kwR0C2Q5rvuzks",
+      "score": 3
+    },
+    "ricks-bike-repair": {
+      "name": "Rick's Bike Repair",
+      "address": "400 Elliott Ave, Kingston, ON K7K 6M9, Canada",
+      "placeId": "ChIJ4UqWOoup0kwRZKZrUBEcjLw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ4UqWOoup0kwRZKZrUBEcjLw",
+      "score": 7
+    },
+    "soothing-oasis-spa": {
+      "name": "Soothing Oasis Spa",
+      "address": "244 Dalton Ave, Kingston, ON K7K 6C3, Canada",
+      "placeId": "ChIJkX6s1cyo0kwRQ1xISNNOLz8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJkX6s1cyo0kwRQ1xISNNOLz8",
+      "score": 4
+    },
+    "cs-physiotherapy-wellness-centre": {
+      "name": "CS Physiotherapy & Wellness Centre",
+      "address": "1479 John Counter Blvd Ste 201, Kingston, ON K7M 7J3, Canada",
+      "placeId": "ChIJ38BTV9mt0kwRyelgdzuOGnI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ38BTV9mt0kwRyelgdzuOGnI",
+      "score": 6
+    },
+    "r-l-fletcher-bicycle-repair": {
+      "name": "R L Fletcher Bicycle Repair",
+      "address": "916 Portsmouth Ave, Kingston, ON K7M 1W9, Canada",
+      "placeId": "ChIJpQd4kXas0kwRwqWU1dP3_rY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJpQd4kXas0kwRwqWU1dP3_rY",
+      "score": 6
+    },
+    "pedal-works-caf-studios": {
+      "name": "Pedal Works Caf\u00e9 & Studios",
+      "address": "101C, 1412 Princess St, Kingston, ON K7M 3E5, Canada",
+      "placeId": "ChIJZYNq8kit0kwRtrNZp6sJb_U",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJZYNq8kit0kwRtrNZp6sJb_U",
+      "score": 6
+    },
+    "physiotherapy-kingston-cbi-health": {
+      "name": "Physiotherapy Kingston - CBI Health",
+      "address": "1469 Princess St Unit 7, Kingston, ON K7M 3E9, Canada",
+      "placeId": "ChIJa3x54aGr0kwRgYApSaFP5VY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJa3x54aGr0kwRgYApSaFP5VY",
+      "score": 6
+    },
+    "j-j-cycle": {
+      "name": "J&J Cycle",
+      "address": "Frontenac Mall, 1300 Bath Rd, Kingston, ON K7M 4X4, Canada",
+      "placeId": "ChIJMfrCQ3vBVkARoBp1UqK7vf4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJMfrCQ3vBVkARoBp1UqK7vf4",
+      "score": 7
+    },
+    "the-right-move-physiotherapy-and-health-management-inc": {
+      "name": "The Right Move Physiotherapy and Health Management Inc.",
+      "address": "500 Gardiners Rd, Kingston, ON K7M 7W9, Canada",
+      "placeId": "ChIJo9VAHfGs0kwRp1Msn_GvbjE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJo9VAHfGs0kwRp1Msn_GvbjE",
+      "score": 6
+    },
+    "westside-cycle-caf": {
+      "name": "Westside Cycle & Caf\u00e9",
+      "address": "1690 Bath Rd, Kingston, ON K7M 4X9, Canada",
+      "placeId": "ChIJx2akfbit0kwRAkXJFBLE8I0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJx2akfbit0kwRAkXJFBLE8I0",
+      "score": 3
+    },
+    "k-town-physiotherapy-arlington": {
+      "name": "K-TOWN Physiotherapy Arlington",
+      "address": "775 Midpark Dr, Kingston, ON K7M 7G3, Canada",
+      "placeId": "ChIJwV9xfw-t0kwR5FSpVLAIBpc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJwV9xfw-t0kwR5FSpVLAIBpc",
+      "score": 6
+    },
+    "lifemark-physiotherapy-blackburn-taylor-kidd": {
+      "name": "Lifemark Physiotherapy Blackburn & Taylor Kidd",
+      "address": "790 Blackburn Mews Unit 12, Kingston, ON K7P 2N6, Canada",
+      "placeId": "ChIJKUjzJfqs0kwRGcJWPq-waIc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJKUjzJfqs0kwRGcJWPq-waIc",
+      "score": 5
+    },
+    "move-authentically-physiotherapy": {
+      "name": "Move Authentically Physiotherapy",
+      "address": "817 Blackburn Mews, Kingston, ON K7P 2N6, Canada",
+      "placeId": "ChIJtzO8FJyr0kwR6llYU9volF8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJtzO8FJyr0kwR6llYU9volF8",
+      "score": 6
+    },
+    "riders-gears-spot": {
+      "name": "Riders Gears spot",
+      "address": "945 Gardiners Rd, Kingston, ON K7M 7H4, Canada",
+      "placeId": "ChIJ8QkRqX-t0kwRAlbaONgf_vE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ8QkRqX-t0kwRAlbaONgf_vE",
+      "score": 5
+    },
+    "k-town-physiotherapy-west": {
+      "name": "K-TOWN Physiotherapy West",
+      "address": "650 Cataraqui Woods Dr, Kingston, ON K7P 2Y4, Canada",
+      "placeId": "ChIJt3A22DKs0kwRNhx7IVyuLrc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJt3A22DKs0kwRNhx7IVyuLrc",
+      "score": 5
+    },
+    "best-health-physiotherapy": {
+      "name": "Best Health Physiotherapy",
+      "address": "1329 Gardiners Rd #2, Kingston, ON K7P 0L8, Canada",
+      "placeId": "ChIJs8Z1zNat0kwRzmSmrjJsnbw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJs8Z1zNat0kwRzmSmrjJsnbw",
+      "score": 6
+    },
+    "kingston-athletic-therapy-centre": {
+      "name": "Kingston Athletic Therapy Centre",
+      "address": "1663 Venture Dr #1B, Kingston, ON K7P 0K1, Canada",
+      "placeId": "ChIJs2yYo9at0kwRdgWrkEPOTmY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJs2yYo9at0kwRdgWrkEPOTmY",
+      "score": 5
+    },
+    "beauty-wellness-collective": {
+      "name": "Beauty & Wellness Collective",
+      "address": "497 Cataraqui Woods Dr #2, Kingston, ON K7P 0E6, Canada",
+      "placeId": "ChIJWxHyF9St0kwRPOPPOruv-sM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJWxHyF9St0kwRPOPPOruv-sM",
+      "score": 3
+    },
+    "progress-physiotherapy": {
+      "name": "PROGRESS PHYSIOTHERAPY",
+      "address": "2437 Princess St #202, Kingston, ON K7M 3G4, Canada",
+      "placeId": "ChIJxzw7N0as0kwROPTdrlOsM_8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJxzw7N0as0kwROPTdrlOsM_8",
+      "score": 6
+    },
+    "bayridge-physiotherapy": {
+      "name": "Bayridge Physiotherapy",
+      "address": "775 Strand Blvd Unit 7, Kingston, ON K7P 2S7, Canada",
+      "placeId": "ChIJRRWBdaSt0kwRiaH73RcPZVU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJRRWBdaSt0kwRiaH73RcPZVU",
+      "score": 5
+    },
+    "fade-district": {
+      "name": "\ud83d\udc88Fade District \ud83d\udc88",
+      "address": "1138 Craig Ln, Kingston, ON K7M 7W1, Canada",
+      "placeId": "ChIJU018CgCt0kwRg6lxGNSFDkY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJU018CgCt0kwRg6lxGNSFDkY",
+      "score": 5
+    },
+    "the-bike-medic": {
+      "name": "The Bike Medic",
+      "address": "1318 Turnbull Wy, Kingston, ON K7P 0T3, Canada",
+      "placeId": "ChIJPWcFt_Kz0kwRYGTMzu43Bmg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJPWcFt_Kz0kwRYGTMzu43Bmg",
+      "score": 3
+    },
+    "trek-bicycle-kingston": {
+      "name": "Trek Bicycle Kingston",
+      "address": "710 Front Rd, Kingston, ON K7M 4L5, Canada",
+      "placeId": "ChIJz7OhJqir0kwRdMgWxACQupc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJz7OhJqir0kwRdMgWxACQupc",
+      "score": 5
+    },
+    "spaveya": {
+      "name": "Spaveya",
+      "address": "87 Union St Rm 232, Kingston, ON K7L 2N8, Canada",
+      "placeId": "ChIJXVtW9rir0kwR6deRKiGyq7I",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJXVtW9rir0kwR6deRKiGyq7I",
+      "score": 3
+    },
+    "student-wellness-services": {
+      "name": "Student Wellness Services",
+      "address": "69 Union St, Kingston, ON K1M 1R9, Canada",
+      "placeId": "ChIJKTKRnxyr0kwRxwnWwg9oOko",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJKTKRnxyr0kwRxwnWwg9oOko",
+      "score": 7
+    },
+    "cycle-kingston": {
+      "name": "Cycle Kingston",
+      "address": "Stn. Main, Kingston, ON K7L 1X4, Canada",
+      "placeId": "ChIJq6pqq_-q0kwREXgRw-asOkE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJq6pqq_-q0kwREXgRw-asOkE",
+      "score": 3
+    },
+    "prabhii-hair-atelier": {
+      "name": "Prabhii Hair Atelier",
+      "address": "86 Brock St, Kingston, ON K7L 1R9, Canada",
+      "placeId": "ChIJa_v8v7yr0kwROLP5O7XaHiM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJa_v8v7yr0kwROLP5O7XaHiM",
+      "score": 3
+    },
+    "skandiflow-health-wellness": {
+      "name": "Skandiflow Health & Wellness",
+      "address": "80 Princess St, Kingston, ON K7L 3E3, Canada",
+      "placeId": "ChIJYXHuopqr0kwRJoEMp5O-Ht4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYXHuopqr0kwRJoEMp5O-Ht4",
+      "score": 6
+    },
+    "k-town-physiotherapy-downtown": {
+      "name": "K-TOWN Physiotherapy Downtown",
+      "address": "368 King St E, Kingston, ON K7K 2Y2, Canada",
+      "placeId": "ChIJsUyMSP-q0kwRA4MbqIYj2Ho",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJsUyMSP-q0kwRA4MbqIYj2Ho",
+      "score": 6
+    },
+    "health-in-focus-sports-injury-rehab-downtown": {
+      "name": "Health in Focus Sports Injury & Rehab - Downtown",
+      "address": "42 Queen St, Kingston, ON K7K 2Y6, Canada",
+      "placeId": "ChIJGzXeP_6q0kwRPnQecBrlTYc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJGzXeP_6q0kwRPnQecBrlTYc",
+      "score": 5
+    },
+    "gear-up-recycled-bicycles": {
+      "name": "Gear Up! Recycled Bicycles",
+      "address": "559 Bagot St, Kingston, ON K7K 3E1, Canada",
+      "placeId": "ChIJqaru5Kyr0kwRn15Tyx5Ksho",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJqaru5Kyr0kwRn15Tyx5Ksho",
+      "score": 3
+    },
+    "spear-wellness-centre": {
+      "name": "Spear Wellness Centre",
+      "address": "4 Cataraqui St #101, Kingston, ON K7K 1Z7, Canada",
+      "placeId": "ChIJuZBRUU2q0kwR7ALCLypKAzE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJuZBRUU2q0kwR7ALCLypKAzE",
+      "score": 3
+    },
+    "i-cycle-electric-bike-co": {
+      "name": "i-Cycle Electric Bike Co",
+      "address": "25 Fort Henry Dr, Kingston, ON K7K 5G8, Canada",
+      "placeId": "ChIJAwYPJY9FzUwRjO8QTSmbgx8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJAwYPJY9FzUwRjO8QTSmbgx8",
+      "score": 5
+    },
+    "athletico-sports-physiotherapy": {
+      "name": "Athletico Sports Physiotherapy",
+      "address": "CANEX Mall, 29 Niagara Park, Kingston, ON K7K 7B4, Canada",
+      "placeId": "ChIJR673Kmaq0kwR93ieHBMnyJ4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJR673Kmaq0kwR93ieHBMnyJ4",
+      "score": 5
+    },
+    "summit-physiotherapy-kingston": {
+      "name": "Summit Physiotherapy - Kingston",
+      "address": "677 Innovation Dr #1, Kingston, ON K7K 0E3, Canada",
+      "placeId": "ChIJQ6Rj0Iyp0kwRdzorFTRxV1Y",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQ6Rj0Iyp0kwRdzorFTRxV1Y",
+      "score": 6
+    },
+    "north-of-now-wellness": {
+      "name": "North of Now Wellness",
+      "address": "above Health in Focus, 496 Discovery Ave Unit 9, Kingston, ON K7K 7E9, Canada",
+      "placeId": "ChIJhW2Mdpap0kwROaoe4vU6cHQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJhW2Mdpap0kwROaoe4vU6cHQ",
+      "score": 3
+    },
+    "health-in-focus-sports-injury-rehab-east": {
+      "name": "Health in Focus Sports Injury & Rehab - East",
+      "address": "496 Discovery Ave, Kingston, ON K7K 7E9, Canada",
+      "placeId": "ChIJETvDvgip0kwRXTcHHS9uydI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJETvDvgip0kwRXTcHHS9uydI",
+      "score": 6
+    },
+    "kingston-pelvic-health": {
+      "name": "Kingston Pelvic Health",
+      "address": "128 Ontario St, Kingston, ON K7L 2Y4, Canada",
+      "placeId": "ChIJ4VJNcP2s0kwRlwD62ueqtlk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ4VJNcP2s0kwRlwD62ueqtlk",
+      "score": 5
+    },
+    "unique-cycle-kingston-inc": {
+      "name": "Unique Cycle Kingston Inc.",
+      "address": "1881 Sydenham Rd, Kingston, ON K7L 4V4, Canada",
+      "placeId": "ChIJ5RXBGvKu0kwRQXClbnHjI8M",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ5RXBGvKu0kwRQXClbnHjI8M",
+      "score": 6
+    },
+    "re-gear": {
+      "name": "RE-GEAR",
+      "address": "1478 Unity Rd, Glenburnie, ON K0H 1S0, Canada",
+      "placeId": "ChIJX3sztjGv0kwRfOfAYdZOiBE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJX3sztjGv0kwRfOfAYdZOiBE",
+      "score": 6
+    },
+    "mtb-kingston": {
+      "name": "MTB Kingston",
+      "address": "Unnamed Road, Glenburnie, ON K0H 1S0, Canada",
+      "placeId": "ChIJo2S9DbKp0kwRs7THz6IDnyM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJo2S9DbKp0kwRs7THz6IDnyM",
+      "score": 3
+    },
+    "kingston-cyclery": {
+      "name": "Kingston Cyclery",
+      "address": "612 Ulster Ave, Kingston, NY 12401, USA",
+      "placeId": "ChIJX3soQy4P3YkRPIufS3iGxyE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJX3soQy4P3YkRPIufS3iGxyE",
+      "score": 6
+    },
+    "revolution-bicycles": {
+      "name": "Revolution Bicycles",
+      "address": "388 Hasbrouck Ave, Kingston, NY 12401, USA",
+      "placeId": "ChIJZ2fobien3YkRzkTWVTjind0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJZ2fobien3YkRzkTWVTjind0",
+      "score": 7
+    },
+    "balfes-bikes-kingston": {
+      "name": "Balfe's Bikes Kingston",
+      "address": "36-40 Richmond Rd, Kingston upon Thames KT2 5EE, UK",
+      "placeId": "ChIJVQV8QLMLdkgRaoAmF0-6VqE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJVQV8QLMLdkgRaoAmF0-6VqE",
+      "score": 7
+    },
+    "art-noise": {
+      "name": "Art Noise",
+      "address": "290 Princess St, Kingston, ON K7L 1B5, Canada",
+      "placeId": "ChIJ--U7ZwCr0kwRoQELKgVG5p8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ--U7ZwCr0kwRoQELKgVG5p8",
+      "score": 8
+    },
+    "maison-paul-coiffure": {
+      "name": "Maison Paul Coiffure",
+      "address": "520 Princess St, Kingston, ON K7L 1C5, Canada",
+      "placeId": "ChIJ1dX64qer0kwRUodCljetVdw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ1dX64qer0kwRUodCljetVdw",
+      "score": 7
+    },
+    "transformation-training-health-centre": {
+      "name": "Transformation Training Health Centre",
+      "address": "574 Princess St Suite 101, Kingston, ON K7L 1C9, Canada",
+      "placeId": "ChIJQZLeoaer0kwREI74WP-82wA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQZLeoaer0kwREI74WP-82wA",
+      "score": 7
+    },
+    "trendsetter-hair-clinic": {
+      "name": "Trendsetter Hair Clinic",
+      "address": "573 Princess St, Kingston, ON K7L 1C8, Canada",
+      "placeId": "ChIJYU_AQ7et0kwRk6RAGmYJQA8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYU_AQ7et0kwRk6RAGmYJQA8",
+      "score": 7
+    },
+    "i-d-beauty": {
+      "name": "I.D.Beauty",
+      "address": "685 Gardiners Rd, Kingston, ON K7M 8K5, Canada",
+      "placeId": "ChIJuSFVq4er0kwRkLnQUBoHmiE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJuSFVq4er0kwRkLnQUBoHmiE",
+      "score": 6
+    },
+    "jess-bird-make-up-artist": {
+      "name": "Jess bird [Make-up] Artist",
+      "address": "295 Brock St, Kingston, ON K7K 4S1, Canada",
+      "placeId": "ChIJOXswhaGr0kwRNVJqawEcYM8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJOXswhaGr0kwRNVJqawEcYM8",
+      "score": 6
+    },
+    "serenity-spa": {
+      "name": "Serenity Spa",
+      "address": "295 Brock St, Kingston, ON K7L 1S5, Canada",
+      "placeId": "ChIJ2x1rwgCr0kwRmECVmkTaViw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ2x1rwgCr0kwRmECVmkTaViw",
+      "score": 6
+    },
+    "the-lash-room-by-chay": {
+      "name": "The Lash Room By Chay",
+      "address": "520 Princess St, Kingston, ON K7L 1C5, Canada",
+      "placeId": "ChIJAUscu_iq0kwRBbMe3jiH__E",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJAUscu_iq0kwRBbMe3jiH__E",
+      "score": 6
+    },
+    "caibeauty": {
+      "name": "Caibeauty",
+      "address": "485 Canatara Ct #210, Kingston, ON K7M 6G6, Canada",
+      "placeId": "ChIJo2u6jRGt0kwRa44qrKU9NJo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJo2u6jRGt0kwRa44qrKU9NJo",
+      "score": 5
+    },
+    "holistically-hip": {
+      "name": "Holistically Hip",
+      "address": "233 Princess St, Kingston, ON K7L 1B2, Canada",
+      "placeId": "ChIJUf3nGQCr0kwRaWAvxGj08n8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJUf3nGQCr0kwRaWAvxGj08n8",
+      "score": 5
+    },
+    "kingston-integrated-healthcare-inc": {
+      "name": "Kingston Integrated Healthcare Inc.",
+      "address": "541 Palace Rd, Kingston, ON K7L 4T6, Canada",
+      "placeId": "ChIJG3mwFJyr0kwReZ3dvCLpk0E",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJG3mwFJyr0kwReZ3dvCLpk0E",
+      "score": 5
+    },
+    "nourishcohealth-inc": {
+      "name": "NourishCoHealth Inc.",
+      "address": "517 Alfred St, Kingston, ON K7K 4J5, Canada",
+      "placeId": "ChIJURMOzZKr0kwRWUInTnaZms4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJURMOzZKr0kwRWUInTnaZms4",
+      "score": 5
+    },
+    "the-beauty-development": {
+      "name": "The Beauty Development",
+      "address": "830 Development Dr, Kingston, ON K7M 5V7, Canada",
+      "placeId": "ChIJa3hAJv6s0kwRyElD25rKhxM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJa3hAJv6s0kwRyElD25rKhxM",
+      "score": 5
+    },
+    "the-kingston-injury-management-centre": {
+      "name": "The Kingston Injury Management Centre",
+      "address": "1440 Princess St, Kingston, ON K7M 3E5, Canada",
+      "placeId": "ChIJj-7dHHes0kwR-QmRhMJup1Y",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJj-7dHHes0kwR-QmRhMJup1Y",
+      "score": 5
+    },
+    "warrior-spirit-healing-arts": {
+      "name": "Warrior Spirit Healing Arts",
+      "address": "348 Bagot St Ste 108, Kingston, ON K7K 3B7, Canada",
+      "placeId": "ChIJEyEQoxhlLIgRhJWV2qx_oV4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJEyEQoxhlLIgRhJWV2qx_oV4",
+      "score": 5
+    },
+    "a-kneaded-calm-massage": {
+      "name": "A Kneaded Calm Massage",
+      "address": "206 Concession St, Kingston, ON K7K 2B5, Canada",
+      "placeId": "ChIJ___PPqKr0kwR2RHon805Ek0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ___PPqKr0kwR2RHon805Ek0",
+      "score": 4
+    },
+    "hair-by-jaime-and-hair-by-nancy": {
+      "name": "Hair by Jaime and Hair by Nancy",
+      "address": "573 Princess St, Kingston, ON K7L 1C8, Canada",
+      "placeId": "ChIJwztU5ICr0kwR2Wr3Bzq9qd4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJwztU5ICr0kwR2Wr3Bzq9qd4",
+      "score": 4
+    },
+    "kingston-wellness-centre": {
+      "name": "Kingston Wellness Centre",
+      "address": "303 Bagot St Ste 101, Kingston, ON K7K 6T8, Canada",
+      "placeId": "ChIJu0M4jv-q0kwRpeOeoi6zh-4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJu0M4jv-q0kwRpeOeoi6zh-4",
+      "score": 4
+    },
+    "new-horizons-therapy-centre": {
+      "name": "New Horizons Therapy Centre",
+      "address": "525 MacDonnell St, Kingston, ON K7K 4W8, Canada",
+      "placeId": "ChIJS-ceBaKr0kwR68edh2593PA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJS-ceBaKr0kwR68edh2593PA",
+      "score": 4
+    },
+    "the-beauty-concept": {
+      "name": "The Beauty Concept",
+      "address": "1724 Bath Rd, Kingston, ON K7M 4Y2, Canada",
+      "placeId": "ChIJ0yAf6T-t0kwRalIKvRf7cIk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ0yAf6T-t0kwRalIKvRf7cIk",
+      "score": 4
+    },
+    "zrinka-vukadinovic-registered-massage-therapy": {
+      "name": "Zrinka Vukadinovic Registered Massage Therapy",
+      "address": "863 Princess St Ste 305, Kingston, ON K7L 5N4, Canada",
+      "placeId": "ChIJ55A43AKr0kwRfhe5WkeIAvc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ55A43AKr0kwRfhe5WkeIAvc",
+      "score": 4
+    },
+    "back-to-prime-physiotherapy-and-performance": {
+      "name": "Back to Prime Physiotherapy and Performance",
+      "address": "838 Development Dr, Kingston, ON K7M 5V7, Canada",
+      "placeId": "ChIJPwva_Fet0kwRfQE994lMYtQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJPwva_Fet0kwRfQE994lMYtQ",
+      "score": 3
+    },
+    "back-on-track-osteopathy": {
+      "name": "Back-On-Track Osteopathy",
+      "address": "73 Pembroke St, Kingston, ON K7L 4N6, Canada",
+      "placeId": "ChIJT-aFyBOr0kwR2W1XLACpzNk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJT-aFyBOr0kwR2W1XLACpzNk",
+      "score": 3
+    },
+    "beauty-in-the-east-medical-spa": {
+      "name": "Beauty in the East Medical Spa",
+      "address": "225 Gore Rd Unit 5, Kingston, ON K7K 0C8, Canada",
+      "placeId": "ChIJdV3Tt4-r0kwRcx3aEj3ooOg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJdV3Tt4-r0kwRcx3aEj3ooOg",
+      "score": 3
+    },
+    "bodymind-somatic-therapy-registered-massage-yoga-therapy": {
+      "name": "BodyMind Somatic Therapy, Registered Massage & Yoga Therapy",
+      "address": "221 King St E, Kingston, ON K7L 3A7, Canada",
+      "placeId": "ChIJVVUVqACr0kwRd4Gcb9GLjwo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJVVUVqACr0kwRd4Gcb9GLjwo",
+      "score": 3
+    },
+    "david-barker-clinic": {
+      "name": "David Barker Clinic",
+      "address": "336 Princess St, Kingston, ON K7L 1B6, Canada",
+      "placeId": "ChIJu5wfyQGr0kwRMzM36DkW1yg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJu5wfyQGr0kwRMzM36DkW1yg",
+      "score": 3
+    },
+    "function-flow-massage-therapy": {
+      "name": "function + flow massage therapy",
+      "address": "233 Princess St, Kingston, ON K7L 1B3, Canada",
+      "placeId": "ChIJ0YLc5E-r0kwRG4DBfLSyxhw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ0YLc5E-r0kwRG4DBfLSyxhw",
+      "score": 3
+    },
+    "infinite-wellness-pilates-studio": {
+      "name": "Infinite Wellness Pilates Studio",
+      "address": "156 Princess St Ste 201, Kingston, ON K7L 3G4, Canada",
+      "placeId": "ChIJ7SG4HsGr0kwRvmH2s2ohg24",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ7SG4HsGr0kwRvmH2s2ohg24",
+      "score": 3
+    },
+    "kingston-curly-hair": {
+      "name": "kingston curly hair",
+      "address": "St The Artistry Collective, Bagot St #344, Kingston, ON K7K 3B7, Canada",
+      "placeId": "ChIJJ-WzQ0Sr0kwRUmic06ql3t0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJJ-WzQ0Sr0kwRUmic06ql3t0",
+      "score": 3
+    },
+    "move-better-physiotherapy": {
+      "name": "Move Better Physiotherapy",
+      "address": "574 Princess St, Kingston, ON K7L 1C9, Canada",
+      "placeId": "ChIJwahab5-r0kwRJhywany8Np8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJwahab5-r0kwRJhywany8Np8",
+      "score": 3
+    },
+    "sarah-walker-cst": {
+      "name": "Sarah Walker CST",
+      "address": "JD Physiotherapy Kingston East, 802 John Marks Ave #1, Kingston, ON K7K 0J7, Canada",
+      "placeId": "ChIJVVHXlZKp0kwRL5QnRHD4TBM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJVVHXlZKp0kwRL5QnRHD4TBM",
+      "score": 3
+    },
+    "the-beauty-room": {
+      "name": "The Beauty Room",
+      "address": "1315 Centennial Dr, Kingston, ON K7P 0V5, Canada",
+      "placeId": "ChIJO4VcRKKt0kwRCjGRzeWO4os",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJO4VcRKKt0kwRCjGRzeWO4os",
+      "score": 3
+    },
+    "the-beauty-room-co": {
+      "name": "The Beauty Room & Co",
+      "address": "1315 Centennial Dr Unit 2, Kingston, ON K7P 0K4, Canada",
+      "placeId": "ChIJnQ3zJlmt0kwRT0OmQBZcIgQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJnQ3zJlmt0kwRT0OmQBZcIgQ",
+      "score": 3
+    },
+    "the-hair-studio-on-barrie": {
+      "name": "The Hair Studio on Barrie",
+      "address": "332B Barrie St, Kingston, ON K7K 3T1, Canada",
+      "placeId": "ChIJ3yYEpgCr0kwR-ladrF4U-B8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ3yYEpgCr0kwR-ladrF4U-B8",
+      "score": 3
+    },
+    "touchworks-of-kingston-registered-massage-therapy": {
+      "name": "Touchworks of Kingston Registered Massage Therapy",
+      "address": "4 Cataraqui St, unit 204 (** end of hallway - 2nd floor!, Kingston, ON K7K 1Z7, Canada",
+      "placeId": "ChIJ8yXaq7Kr0kwRnyI0yEzmjWU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ8yXaq7Kr0kwRnyI0yEzmjWU",
+      "score": 3
+    },
+    "zen-haus": {
+      "name": "zen haus",
+      "address": "1036 Princess St Ste 117, Kingston, ON K7L 1H2, Canada",
+      "placeId": "ChIJ27hIlz1YqoIRcCxUiKxcS14",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ27hIlz1YqoIRcCxUiKxcS14",
+      "score": 3
     }
   }
 }

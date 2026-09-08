@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "businesses":{
+  "businesses": {
     "allure-hair-studio-and-spa": {
       "name": "Allure Hair Studio And Spa",
       "address": "296 Bagot St, Kingston, ON K7K 3B4, Canada",
@@ -13,7 +13,8 @@
       "address": "255 Bagot St Unit A, Kingston, ON K7L 3G4, Canada",
       "placeId": "ChIJizJLS-Gr0kwR2bm0TWPTvIc",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJizJLS-Gr0kwR2bm0TWPTvIc",
-      "score": 9
+      "score": 9,
+      "deployedAt": "2026-09-08"
     },
     "nice-nails-kingston": {
       "name": "Nice Nails Kingston",
@@ -27,14 +28,16 @@
       "address": "432 Princess Street, suite 2, 432 Princess St second floor, Kingston, ON K7L 1C2, Canada",
       "placeId": "ChIJR1HFZQer0kwR7I7sbvd58rk",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJR1HFZQer0kwR7I7sbvd58rk",
-      "score": 9
+      "score": 9,
+      "deployedAt": "2026-09-08"
     },
     "angel-nails": {
       "name": "Angel Nails",
       "address": "284 Princess St, Kingston, ON K7L 1S3, Canada",
       "placeId": "ChIJDSZsZgCr0kwR3aTdDm27tE0",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJDSZsZgCr0kwR3aTdDm27tE0",
-      "score": 8
+      "score": 8,
+      "deployedAt": "2026-09-08"
     },
     "cher-mere-day-spa-west-end": {
       "name": "Cher-Mere Day Spa West End",
@@ -48,7 +51,8 @@
       "address": "49 Montreal St, Kingston, ON K7K 3E7, Canada",
       "placeId": "ChIJ9wp--f-q0kwRFFMJXqAjdgg",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ9wp--f-q0kwRFFMJXqAjdgg",
-      "score": 8
+      "score": 8,
+      "deployedAt": "2026-09-08"
     },
     "eastside-barbershop": {
       "name": "Eastside Barbershop",
@@ -90,7 +94,8 @@
       "address": "189 Princess St, Kingston, ON K7L 3G5, Canada",
       "placeId": "ChIJZ9xN7_-q0kwRraqfvHyTYPU",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJZ9xN7_-q0kwRraqfvHyTYPU",
-      "score": 8
+      "score": 8,
+      "deployedAt": "2026-09-08"
     },
     "kingston-community-health-centres": {
       "name": "Kingston Community Health Centres",
@@ -111,7 +116,8 @@
       "address": "311 Bagot St, Kingston, ON K7K 3B6, Canada",
       "placeId": "ChIJK7hHif-q0kwR2dSQSxnUZ10",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJK7hHif-q0kwR2dSQSxnUZ10",
-      "score": 8
+      "score": 8,
+      "deployedAt": "2026-09-08"
     },
     "sabaya-spa": {
       "name": "Sabaya Spa",
@@ -139,7 +145,8 @@
       "address": "351 Princess St, Kingston, ON K7L 1B6, Canada",
       "placeId": "ChIJYWuPvQCr0kwRTruGg0G0RRw",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYWuPvQCr0kwRTruGg0G0RRw",
-      "score": 8
+      "score": 8,
+      "deployedAt": "2026-09-08"
     },
     "the-loft-hair-studio": {
       "name": "The Loft Hair Studio",
@@ -160,7 +167,8 @@
       "address": "187 Sydenham St, Kingston, ON K7K 3M3, Canada",
       "placeId": "ChIJR3KbDACr0kwRM3MrmgtH0ws",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJR3KbDACr0kwRM3MrmgtH0ws",
-      "score": 8
+      "score": 8,
+      "deployedAt": "2026-09-08"
     },
     "ak-nails-beauty-spa": {
       "name": "AK Nails & Beauty Spa",
@@ -1337,6 +1345,699 @@
       "placeId": "ChIJ27hIlz1YqoIRcCxUiKxcS14",
       "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ27hIlz1YqoIRcCxUiKxcS14",
       "score": 3
+    },
+    "ahmeraki-cafe": {
+      "name": "Ahmeraki Cafe",
+      "address": "152 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ9b9dAso_244RG3jSLlWZJbo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ9b9dAso_244RG3jSLlWZJbo",
+      "score": 8
+    },
+    "cafe-dolce-barbican-road": {
+      "name": "Cafe Dolce Barbican Road",
+      "address": "28-32 Barbican Rd, Kingston, Jamaica",
+      "placeId": "ChIJn6VrL4A_244RkdrPhFsSxwo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJn6VrL4A_244RkdrPhFsSxwo",
+      "score": 8
+    },
+    "cafe-el-centro": {
+      "name": "Cafe El Centro",
+      "address": "8 Hillcrest Ave, Kingston, Jamaica",
+      "placeId": "ChIJt2RS1P8-244RyVzL-hQD_6A",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJt2RS1P8-244RyVzL-hQD_6A",
+      "score": 8
+    },
+    "cannonball-caf-new-kingston": {
+      "name": "Cannonball Caf\u00e9 New Kingston",
+      "address": "22-24 Barbados Ave, Kingston, Jamaica",
+      "placeId": "ChIJIXb3Za8_244RyDtdrZ-DG-o",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJIXb3Za8_244RyDtdrZ-DG-o",
+      "score": 8
+    },
+    "collectibles": {
+      "name": "Collectibles",
+      "address": "Village Plaza, 2 - 4 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJU1gdd7M_244R0AW_jddZlck",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJU1gdd7M_244R0AW_jddZlck",
+      "score": 8
+    },
+    "everett-fentons-garage": {
+      "name": "Everett Fenton's Garage",
+      "address": "65 Old Hope Rd, Kingston, Jamaica",
+      "placeId": "ChIJWQW4hgg_244RcIzlvQTQS04",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJWQW4hgg_244RcIzlvQTQS04",
+      "score": 8
+    },
+    "express-fitness-platinum-constant-spring-golf-club": {
+      "name": "Express Fitness Platinum, Constant Spring Golf Club",
+      "address": "152-158 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ9STMKk8_244R438vdrxTcoY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ9STMKk8_244R438vdrxTcoY",
+      "score": 8
+    },
+    "express-fitness-boulevard-supercentre": {
+      "name": "Express Fitness, Boulevard Supercentre",
+      "address": "45 20 Elma Cr, Kingston, Jamaica",
+      "placeId": "ChIJX9Il44MV244R2T677DKIKsc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJX9Il44MV244R2T677DKIKsc",
+      "score": 8
+    },
+    "fit-farm-fitness-club": {
+      "name": "Fit Farm Fitness Club",
+      "address": "2 Upper, 5 Braemar Ave, Kingston, Jamaica",
+      "placeId": "ChIJKRBuB6o_244RbAnetSDokjA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJKRBuB6o_244RbAnetSDokjA",
+      "score": 8
+    },
+    "giscombes-gym-and-wellness-centre": {
+      "name": "Giscombe\u2019s Gym and Wellness Centre",
+      "address": "107a, 10 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJa6YFbRM_244RMaikbVvPKQE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJa6YFbRM_244RMaikbVvPKQE",
+      "score": 8
+    },
+    "grosvenor-cafe": {
+      "name": "Grosvenor Cafe",
+      "address": "1, 8 Grosvenor Terrace, Kingston, Jamaica",
+      "placeId": "ChIJmRxus28-244R6G1i7Nqrmyc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJmRxus28-244R6G1i7Nqrmyc",
+      "score": 8
+    },
+    "hard-end-fitness-factory": {
+      "name": "Hard End Fitness Factory",
+      "address": "7 Ardenne Road, Kingston 10, Kingston, Jamaica",
+      "placeId": "ChIJPWKjC6s_244RZ1Lq2feIfYg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJPWKjC6s_244RZ1Lq2feIfYg",
+      "score": 8
+    },
+    "new-level-barber-shop": {
+      "name": "New Level Barber Shop",
+      "address": "2672+4WW, Kingston, Jamaica",
+      "placeId": "ChIJE8v6W0s_244RDmKYA2ZoP4g",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJE8v6W0s_244RDmKYA2ZoP4g",
+      "score": 8
+    },
+    "parkway-dental-centre": {
+      "name": "Parkway Dental Centre",
+      "address": "Shop #3, Second Floor, Same plaza as Spencer's and Pablos, Central Plaza, 15 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJE8qqx6o_244R2PK_of-nPPI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJE8qqx6o_244R2PK_of-nPPI",
+      "score": 8
+    },
+    "portmore-cycle-centre": {
+      "name": "Portmore Cycle Centre",
+      "address": "X439+Q78, Portmore, Jamaica",
+      "placeId": "ChIJD4hGdBhr244Rd53_b9LKQkQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJD4hGdBhr244Rd53_b9LKQkQ",
+      "score": 8
+    },
+    "press-cafe": {
+      "name": "PRESS Cafe",
+      "address": "Unit 21, 7-9 Ardenne Rd, Kingston, Jamaica",
+      "placeId": "ChIJQVp2DlI_244R4ODkvlVYTTk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQVp2DlI_244R4ODkvlVYTTk",
+      "score": 8
+    },
+    "service-pro": {
+      "name": "Service Pro",
+      "address": "Cassia Park Rd, Kingston, Jamaica",
+      "placeId": "ChIJBcot7TQ-244RuxDy0ANhtmA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJBcot7TQ-244RuxDy0ANhtmA",
+      "score": 8
+    },
+    "sprytraining": {
+      "name": "SpryTraining",
+      "address": "35 Dunrobin Ave, Kingston, Jamaica",
+      "placeId": "ChIJEd_jkUk-244Rri-cAtIJS1I",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJEd_jkUk-244Rri-cAtIJS1I",
+      "score": 8
+    },
+    "upper-cut-barbers-images-hair-shoppe": {
+      "name": "Upper Cut Barbers/Images Hair Shoppe",
+      "address": "269H+XVV The Valencia, 115 Hope Rd, Kingston, Jamaica",
+      "placeId": "ChIJC0Jw6Pw-244RuAFt51WD_m8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJC0Jw6Pw-244RuAFt51WD_m8",
+      "score": 8
+    },
+    "uppercut-barbershop-and-salon": {
+      "name": "Uppercut Barbershop and Salon",
+      "address": "26X4+F3H, Manor Park Dr, Kingston, Jamaica",
+      "placeId": "ChIJtcR-3G4-244RUYCEQqHkYoQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJtcR-3G4-244RUYCEQqHkYoQ",
+      "score": 8
+    },
+    "willys-thatch-roof-cool-out-spot-ltd": {
+      "name": "Willy's Thatch Roof & Cool Out Spot Ltd",
+      "address": "115A Molynes Rd, Kingston, Jamaica",
+      "placeId": "ChIJD2FoB6w_244RynTjmTGsTsY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJD2FoB6w_244RynTjmTGsTsY",
+      "score": 8
+    },
+    "wynters-auto-spares-repairs-ltd": {
+      "name": "Wynter's Auto Spares & Repairs Ltd",
+      "address": "106 Maxfield Ave, Kingston, Jamaica",
+      "placeId": "ChIJ8cUkYsA_244R3ajC9aFFUNU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ8cUkYsA_244R3ajC9aFFUNU",
+      "score": 8
+    },
+    "yummy-cafe": {
+      "name": "Yummy Cafe",
+      "address": "112 1, Inside the Fresh Approach Plaza, 2 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJY_B_qeM-244Rel7YNM26d7s",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJY_B_qeM-244Rel7YNM26d7s",
+      "score": 8
+    },
+    "2020-collections": {
+      "name": "2020 Collections",
+      "address": "2673+9C9, Ellesmere Rd, Kingston, Jamaica",
+      "placeId": "ChIJEZIt5bM_244RnlNT7XFeqFE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJEZIt5bM_244RnlNT7XFeqFE",
+      "score": 7
+    },
+    "24-seven-cafe": {
+      "name": "24 Seven Cafe",
+      "address": "81 Knutsford Blvd, Kingston, Jamaica",
+      "placeId": "ChIJvyBgi6Q_244R0XjOezPVfMU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJvyBgi6Q_244R0XjOezPVfMU",
+      "score": 7
+    },
+    "316-automotive": {
+      "name": "316 Automotive",
+      "address": "3, 10 Elm Cres, Kingston, Jamaica",
+      "placeId": "ChIJv2N0GNc_244RW8iY1Ca2kOs",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJv2N0GNc_244RW8iY1Ca2kOs",
+      "score": 7
+    },
+    "all-wrapped-up-jamaica": {
+      "name": "All Wrapped Up Jamaica",
+      "address": "47A Old Hope Rd, Kingston, Jamaica",
+      "placeId": "ChIJSfwnKgg_244RVx7jxJ7zq8o",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJSfwnKgg_244RVx7jxJ7zq8o",
+      "score": 7
+    },
+    "ammars": {
+      "name": "Ammar's",
+      "address": "The Village Mall, 24, 10 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ795AnLM_244R6_82EqfdzN0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ795AnLM_244R6_82EqfdzN0",
+      "score": 7
+    },
+    "auto-maintenance-ltd": {
+      "name": "Auto Maintenance Ltd",
+      "address": "15 St James Ave, Kingston, Jamaica",
+      "placeId": "ChIJKeLBGDU_244Rf-s23P6yefM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJKeLBGDU_244Rf-s23P6yefM",
+      "score": 7
+    },
+    "best-buds": {
+      "name": "Best Buds",
+      "address": "6, 1/2 Lady Musgrave Rd, Kingston, Jamaica",
+      "placeId": "ChIJ77cKhac_244R791byQsCLjM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ77cKhac_244R791byQsCLjM",
+      "score": 7
+    },
+    "boulevard-supercentre": {
+      "name": "Boulevard Supercentre",
+      "address": "45 Elma Cr, Kingston, Jamaica",
+      "placeId": "ChIJg1wA-4MV244RwBWqbRxOTNo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJg1wA-4MV244RwBWqbRxOTNo",
+      "score": 7
+    },
+    "broken-plate-restaurant": {
+      "name": "Broken Plate Restaurant",
+      "address": "24 - 28 Barbican Rd, Kingston, Jamaica",
+      "placeId": "ChIJm_35JQE_244RIRttmpxs0yA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJm_35JQE_244RIRttmpxs0yA",
+      "score": 7
+    },
+    "cafe-blue": {
+      "name": "Cafe Blue",
+      "address": "84 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ2xamHh4_244RSeZC0fmKHvc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ2xamHh4_244RSeZC0fmKHvc",
+      "score": 7
+    },
+    "cafe-blue-new-kingston": {
+      "name": "Cafe Blue New Kingston",
+      "address": "24-26, 5 Grenada Cres, Kingston, Jamaica",
+      "placeId": "ChIJxZX-Mtk_244RqUJRj7ay9ro",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJxZX-Mtk_244RqUJRj7ay9ro",
+      "score": 7
+    },
+    "cafe-dolce": {
+      "name": "Cafe Dolce",
+      "address": "114, 114 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ0SwmRkQ-244RGBo_ARZAZUM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ0SwmRkQ-244RGBo_ARZAZUM",
+      "score": 7
+    },
+    "cannonball-caf-sovereign-north": {
+      "name": "Cannonball Caf\u00e9 | Sovereign North",
+      "address": "29, 6 Barbican Rd, Kingston, Jamaica",
+      "placeId": "ChIJK841gOM-244RRWIPAc4t8xE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJK841gOM-244RRWIPAc4t8xE",
+      "score": 7
+    },
+    "carbys-souvenir-discount-centre-craft-village": {
+      "name": "CARBY'S SOUVENIR DISCOUNT CENTRE & CRAFT VILLAGE",
+      "address": "Shop 4, TWIN GATES PLAZA, 25 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJYQ8kg7Q_244RMoH192_1kE8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYQ8kg7Q_244RMoH192_1kE8",
+      "score": 7
+    },
+    "central-plaza-kingston": {
+      "name": "Central Plaza Kingston",
+      "address": "17 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJl4fLejM_244RqD9TJlChQGY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJl4fLejM_244RqD9TJlChQGY",
+      "score": 7
+    },
+    "cheers-automotive-repairs-servicing": {
+      "name": "Cheers Automotive Repairs & Servicing",
+      "address": "7, 6 Easton Ave, Kingston, Jamaica",
+      "placeId": "ChIJ5UyoPWk_244RI4Y_8fm4N8I",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ5UyoPWk_244RI4Y_8fm4N8I",
+      "score": 7
+    },
+    "continental-garage-limited": {
+      "name": "Continental Garage Limited",
+      "address": "6 Lismore Ave, Kingston, Jamaica",
+      "placeId": "ChIJwxNU1KM_244R2XBpW0gCC2s",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJwxNU1KM_244R2XBpW0gCC2s",
+      "score": 7
+    },
+    "cycle-city-and-fitness-limited": {
+      "name": "Cycle City and Fitness Limited",
+      "address": "Shop # 4, Kings Plaza, 38, 10 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJMWvDs0w-244R1lpJ9-RadsA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJMWvDs0w-244R1lpJ9-RadsA",
+      "score": 7
+    },
+    "dlux-restaurant-lounge": {
+      "name": "D'Lux | Restaurant & Lounge",
+      "address": "1A Caledonia Ave, Kingston, Jamaica",
+      "placeId": "ChIJ18rT9bY_244R1-1ap9QE-nA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ18rT9bY_244R1-1ap9QE-nA",
+      "score": 7
+    },
+    "di-lot-restaurant-bar": {
+      "name": "Di Lot | Restaurant & Bar",
+      "address": "33 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJYTda6vI_244R3E0qto1Z2w0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJYTda6vI_244R3E0qto1Z2w0",
+      "score": 7
+    },
+    "dle-cafe-kingston": {
+      "name": "DLE Cafe Kingston",
+      "address": "9-11 Phoenix Ave, Kingston, Jamaica",
+      "placeId": "ChIJj9yU9XA_244R2R5m6eTq_2A",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJj9yU9XA_244R2R5m6eTq_2A",
+      "score": 7
+    },
+    "elegance-beyond-unisex-salon": {
+      "name": "Elegance & Beyond Unisex Salon",
+      "address": "Shop #4, 57A Molynes Rd, Kingston, Jamaica",
+      "placeId": "ChIJb2btwcw_244Rno_OzR-FXVg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJb2btwcw_244Rno_OzR-FXVg",
+      "score": 7
+    },
+    "emanuelle-boutique": {
+      "name": "Emanuelle Boutique",
+      "address": "SHOP #4, VILLAGE PLAZA, 24 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJNUdvTrM_244RfHkW4UjOCxE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJNUdvTrM_244RfHkW4UjOCxE",
+      "score": 7
+    },
+    "etal-store": {
+      "name": "Etal Store",
+      "address": "24 Windsor Ave, Kingston, Jamaica",
+      "placeId": "ChIJh_bh9iM_244RQivSdGDolMY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJh_bh9iM_244RQivSdGDolMY",
+      "score": 7
+    },
+    "eustace-lee-limited": {
+      "name": "Eustace Lee Limited",
+      "address": "22-30, Princess St, Kingston, Jamaica",
+      "placeId": "ChIJKwhXWnZA244RxesLIgFaecI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJKwhXWnZA244RxesLIgFaecI",
+      "score": 7
+    },
+    "evolutionz-gym-limited": {
+      "name": "Evolutionz gym limited",
+      "address": "46 Church St, Kingston, Jamaica",
+      "placeId": "ChIJa3NsHYY_244RdfVnj0nLbcQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJa3NsHYY_244RdfVnj0nLbcQ",
+      "score": 7
+    },
+    "express-fitness-platinum-liguanea": {
+      "name": "Express Fitness Platinum, Liguanea",
+      "address": "Shop #5 Post Office Mall, 115, 6 Hope Rd, Kingston, Jamaica",
+      "placeId": "ChIJV4L25_w-244RVqoL_INgZzg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJV4L25_w-244RVqoL_INgZzg",
+      "score": 7
+    },
+    "express-fitness-half-way-tree": {
+      "name": "Express Fitness, Half-Way-Tree",
+      "address": "Shop #17 and #18, Mall Plaza, Kingston, Jamaica",
+      "placeId": "ChIJOUoKRrM_244R_ABck9XONPE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJOUoKRrM_244R_ABck9XONPE",
+      "score": 7
+    },
+    "express-fitness-new-kingston": {
+      "name": "Express Fitness, New Kingston",
+      "address": "Shop #4, Business Center, Dominica Dr, Kingston, Jamaica",
+      "placeId": "ChIJD6Wsjq8_244Rv50d4GPthHo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJD6Wsjq8_244Rv50d4GPthHo",
+      "score": 7
+    },
+    "gifted-hands-auto-repairs": {
+      "name": "Gifted Hands Auto Repairs",
+      "address": "17 Campbell's Blvd, Kingston, Jamaica",
+      "placeId": "ChIJobwrHJs_244Rm_Mu6-akeq0",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJobwrHJs_244Rm_Mu6-akeq0",
+      "score": 7
+    },
+    "giscombes-sporting-warehouse": {
+      "name": "Giscombe's Sporting Warehouse",
+      "address": "12c Constant Spring Road, Premier Plaza, Half Way Tree Road, Kingston, Jamaica",
+      "placeId": "ChIJGdphCbQ_244RCP6Yy57TEQE",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJGdphCbQ_244RCP6Yy57TEQE",
+      "score": 7
+    },
+    "gorgeous-flowers-co-ltd": {
+      "name": "Gorgeous Flowers Co. Ltd.",
+      "address": "Unit 50, The Domes, 85 Hagley Park Rd, Kingston, Jamaica",
+      "placeId": "ChIJGa43fsU_244RnzGD6R5aang",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJGa43fsU_244RnzGD6R5aang",
+      "score": 7
+    },
+    "ja-deals": {
+      "name": "JA Deals",
+      "address": "Shops #4 & 5, Southdale Plaza, 3 South Ave, Kingston, Jamaica",
+      "placeId": "ChIJuzcS2E4-244Rh1XIzXJZWXQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJuzcS2E4-244Rh1XIzXJZWXQ",
+      "score": 7
+    },
+    "l-k-bicycle-centre": {
+      "name": "L.K. Bicycle Centre",
+      "address": "74 Lady Musgrave Rd, Kingston, Jamaica",
+      "placeId": "ChIJXWSyvao_244R7Sj_1Sie6b4",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJXWSyvao_244R7Sj_1Sie6b4",
+      "score": 7
+    },
+    "lees-fifth-avenue": {
+      "name": "Lee's Fifth Avenue",
+      "address": "Shop# 12-14, 12c Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJhSI5lLM_244RvNF_pAVGZXo",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJhSI5lLM_244RvNF_pAVGZXo",
+      "score": 7
+    },
+    "maxie-department-store-springs-plaza": {
+      "name": "Maxie Department Store (Springs Plaza)",
+      "address": "Shop 19, 17 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJDbiTb7Q_244RWvor6ufrVRI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJDbiTb7Q_244RWvor6ufrVRI",
+      "score": 7
+    },
+    "mezza-luna-kingston": {
+      "name": "Mezza Luna Kingston",
+      "address": "Roof Top, 110 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJU4ulfgA_244Rsw-Fc8amsDM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJU4ulfgA_244Rsw-Fc8amsDM",
+      "score": 7
+    },
+    "mystic-thai-kingston": {
+      "name": "Mystic Thai Kingston",
+      "address": "44 Lady Musgrave Rd, Kingston, Jamaica",
+      "placeId": "ChIJpQ5sAAs_244RgkKY12QCWxw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJpQ5sAAs_244RgkKY12QCWxw",
+      "score": 7
+    },
+    "nelson-auto-repair-service": {
+      "name": "Nelson Auto Repair & Service",
+      "address": "15 Montgomery Ave, Kingston, Jamaica",
+      "placeId": "ChIJQ-FKVMY_244RKIfpAhVZMEc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQ-FKVMY_244RKIfpAhVZMEc",
+      "score": 7
+    },
+    "new-palm-restaurant": {
+      "name": "New Palm Restaurant",
+      "address": "13, 5 Oxford Terrace, Kingston, Jamaica",
+      "placeId": "ChIJ74M60gg_244R-mZhmB09Sqc",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ74M60gg_244R-mZhmB09Sqc",
+      "score": 7
+    },
+    "ocean-7-rooftop-bar-and-grill": {
+      "name": "Ocean 7 Rooftop Bar and Grill",
+      "address": "Victoria Pier, Ocean Blvd, Kingston, Jamaica",
+      "placeId": "ChIJ4ZXoRvZB244RmZb1TiIInfA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ4ZXoRvZB244RmZb1TiIInfA",
+      "score": 7
+    },
+    "orchid-thai": {
+      "name": "Orchid Thai",
+      "address": "Orchid Village Plaza, 20 Barbican Rd, Kingston, Jamaica",
+      "placeId": "ChIJc3K17H8_244RgZ8WAv_ftyY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJc3K17H8_244RgZ8WAv_ftyY",
+      "score": 7
+    },
+    "potwah-diner-and-bar": {
+      "name": "Potwah | Diner and Bar",
+      "address": "8 Hillview Ave, Kingston, Jamaica",
+      "placeId": "ChIJBZMbs7U_244RIJC9UXQdsDM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJBZMbs7U_244RIJC9UXQdsDM",
+      "score": 7
+    },
+    "practical-stationery-gift-centre": {
+      "name": "Practical Stationery & Gift Centre",
+      "address": "Shop 5, Kings Plaza, 38 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ6cb3u0w-244R7gXztvC0Sq8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ6cb3u0w-244R7gXztvC0Sq8",
+      "score": 7
+    },
+    "ragamuffin-coffee-bar": {
+      "name": "Ragamuffin Coffee Bar",
+      "address": "74 Lady Musgrave Rd, Kingston, Jamaica",
+      "placeId": "ChIJ43f8tao_244RPVVjXBYuINU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ43f8tao_244RPVVjXBYuINU",
+      "score": 7
+    },
+    "raphaels-gym-therapy-studio": {
+      "name": "Raphael's Gym & Therapy Studio",
+      "address": "25 Annette Cres, Kingston, Jamaica",
+      "placeId": "ChIJ1d-SAE4-244RVnUzfIkt-GY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ1d-SAE4-244RVnUzfIkt-GY",
+      "score": 7
+    },
+    "rhonas-flowers-gifts-ltd": {
+      "name": "Rhona's Flowers & Gifts Ltd",
+      "address": "ONLY DELIVERY OR KERBSIDE PICKUP, Milbrook Plaza, NO Instore Pickup or Shopping, 121 1/2 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJv7aGx0U-244RGcKRvt8XKhg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJv7aGx0U-244RGcKRvt8XKhg",
+      "score": 7
+    },
+    "rituals-coffee-house": {
+      "name": "Rituals Coffee House",
+      "address": "2683+RM3, Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJoTh2a7M_244RIyZaLyuCF1c",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJoTh2a7M_244RIyZaLyuCF1c",
+      "score": 7
+    },
+    "seven-ultra-lounge": {
+      "name": "Seven Ultra Lounge",
+      "address": "Shop 17-18 7th Avenue Plaza 162, 10 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJMcSHhc4_244RMIv4M1NiAII",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJMcSHhc4_244RMIv4M1NiAII",
+      "score": 7
+    },
+    "shearholders-barbershop-grooming-salon": {
+      "name": "ShearHolders (Barbershop & Grooming Salon)",
+      "address": "11 Ardenne Rd, Kingston, Jamaica",
+      "placeId": "ChIJi-QXC6s_244RsVRGNtKdjQI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJi-QXC6s_244RsVRGNtKdjQI",
+      "score": 7
+    },
+    "shields-and-shields-flowers-jamaica-islandwide-delivery": {
+      "name": "Shields and Shields Flowers, Jamaica Islandwide Delivery",
+      "address": "122 Barbican Rd, Kingston, Jamaica",
+      "placeId": "ChIJkf9sgVg-244R1yrE2uQqFKs",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJkf9sgVg-244R1yrE2uQqFKs",
+      "score": 7
+    },
+    "sir-gregs-motorcycle-auto-parts": {
+      "name": "Sir Greg's Motorcycle & Auto Parts",
+      "address": "192 Orange St, Kingston, Jamaica",
+      "placeId": "ChIJMZtpPnhA244RKc35rjnbUQQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJMZtpPnhA244RKc35rjnbUQQ",
+      "score": 7
+    },
+    "south-avenue-grill": {
+      "name": "South Avenue Grill",
+      "address": "20A South Ave, Kingston, Jamaica",
+      "placeId": "ChIJvfBKxrI_244RFK32_rft5Iw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJvfBKxrI_244RFK32_rft5Iw",
+      "score": 7
+    },
+    "superior-honda-parts-ltd": {
+      "name": "Superior Honda Parts Ltd",
+      "address": "88 Hagley Park Rd, Kingston, Jamaica",
+      "placeId": "ChIJrQsrGNs_244RtA4-68zY-rk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJrQsrGNs_244RtA4-68zY-rk",
+      "score": 7
+    },
+    "the-coppers": {
+      "name": "The Coppers",
+      "address": "9 Haining Rd, Kingston, Jamaica",
+      "placeId": "ChIJ9wvr69Y_244RMi2sDdpF504",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ9wvr69Y_244RMi2sDdpF504",
+      "score": 7
+    },
+    "the-new-greenhouse": {
+      "name": "The New Greenhouse",
+      "address": "10 Easton Ave, Kingston, Jamaica",
+      "placeId": "ChIJPz7ZRAY_244Rm0PX3yFNzys",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJPz7ZRAY_244Rm0PX3yFNzys",
+      "score": 7
+    },
+    "toyota-coffee-house": {
+      "name": "Toyota Coffee House",
+      "address": "93 Old Hope Rd, Kingston, Jamaica",
+      "placeId": "ChIJLavPeAQ_244R0FZErBaQ4JI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJLavPeAQ_244R0FZErBaQ4JI",
+      "score": 7
+    },
+    "tropical-plaza": {
+      "name": "Tropical Plaza",
+      "address": "2673+WGC, Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJlQ71j7M_244Rpxn55exR6yM",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJlQ71j7M_244Rpxn55exR6yM",
+      "score": 7
+    },
+    "trottaz-grill-and-spiritz": {
+      "name": "Trottaz | Grill and Spiritz",
+      "address": "1, 5 Park Pl, Kingston, Jamaica",
+      "placeId": "ChIJWUo_Wh0_244RkqBxS0Tv6y8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJWUo_Wh0_244RkqBxS0Tv6y8",
+      "score": 7
+    },
+    "twin-gates-plaza-kingston-jamaica": {
+      "name": "Twin Gates Plaza Kingston Jamaica",
+      "address": "25 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ19xenbQ_244RFjYR8FFLd7c",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ19xenbQ_244RFjYR8FFLd7c",
+      "score": 7
+    },
+    "ultimate-fitness": {
+      "name": "Ultimate Fitness",
+      "address": "Shop 23, Waterloo Rd, Kingston KGN 10, Jamaica",
+      "placeId": "ChIJ6SpmD04-244RO8_XmAA9DQk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ6SpmD04-244RO8_XmAA9DQk",
+      "score": 7
+    },
+    "uncorked-too": {
+      "name": "Uncorked Too",
+      "address": "144, 8 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ65r8xHE_244RgQXLcySLgp8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ65r8xHE_244RgQXLcySLgp8",
+      "score": 7
+    },
+    "uncorked": {
+      "name": "Uncorked!",
+      "address": "Shop 2 Sovereign North 29, 6 Barbican Rd, Kingston, Jamaica",
+      "placeId": "ChIJCyCrf-Q-244RpXD2uc6xsYg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJCyCrf-Q-244RpXD2uc6xsYg",
+      "score": 7
+    },
+    "yahsuh-fitbox": {
+      "name": "Yahsuh FitBox",
+      "address": "Kgn 6, Barbican Sports Complex, 13 E Kings House Rd, Kingston, Jamaica",
+      "placeId": "ChIJsQII59Q_244RqvD1sl0LcIk",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJsQII59Q_244RqvD1sl0LcIk",
+      "score": 7
+    },
+    "1-dental-jamaica": {
+      "name": "1 Dental Jamaica.",
+      "address": "Shop 6, Lane Plaza, 2-4 South Ave, Kingston, Jamaica",
+      "placeId": "ChIJDwm26t8_244RguwoReOOhWU",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJDwm26t8_244RguwoReOOhWU",
+      "score": 6
+    },
+    "9star-image-boss": {
+      "name": "9Star Image Boss",
+      "address": "1 Balmoral Avenue, Half Way Tree Road, Kingston, Jamaica",
+      "placeId": "ChIJQ7ZtYuk_244ReEWbx-TnEeI",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQ7ZtYuk_244ReEWbx-TnEeI",
+      "score": 6
+    },
+    "art-of-dentistry-ja": {
+      "name": "Art of Dentistry Ja",
+      "address": "48 Constant Spring Rd, Kingston, Jamaica",
+      "placeId": "ChIJ_3XItzk_244Rp9t2c0-HXnQ",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJ_3XItzk_244Rp9t2c0-HXnQ",
+      "score": 6
+    },
+    "aviv-dental-aesthetics-centre": {
+      "name": "Aviv Dental & Aesthetics Centre",
+      "address": "Shop #6, Lane Plaza, 2 -4 South Ave, Kingston, Jamaica",
+      "placeId": "ChIJxaGQ9PE_244RGt5nrXXO8TY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJxaGQ9PE_244RGt5nrXXO8TY",
+      "score": 6
+    },
+    "els-mobile-dental": {
+      "name": "ELS Mobile Dental",
+      "address": "38 A Trafalgar Rd, Kingston, Jamaica",
+      "placeId": "ChIJLwMjqOY_244RnMA0NcISP8M",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJLwMjqOY_244RnMA0NcISP8M",
+      "score": 6
+    },
+    "highway-auto-repair": {
+      "name": "Highway Auto Repair",
+      "address": "39, 10 Molynes Rd, Kingston, Jamaica",
+      "placeId": "ChIJQSgSzcs_244R19DirvWPPcY",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJQSgSzcs_244R19DirvWPPcY",
+      "score": 6
+    },
+    "innovative-dental-care-kingston": {
+      "name": "Innovative Dental Care Kingston",
+      "address": "Ste 1, 24 Cargill Ave, Kingston, Jamaica",
+      "placeId": "ChIJP0-Fhj0_244RU6eiiRgGqhg",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJP0-Fhj0_244RU6eiiRgGqhg",
+      "score": 6
+    },
+    "kingston-social": {
+      "name": "Kingston Social",
+      "address": "237 Fair St, Kingston, NY 12401, USA",
+      "placeId": "ChIJkUmgPvAP3YkRL-1Guw1DUr8",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJkUmgPvAP3YkRL-1Guw1DUr8",
+      "score": 6
+    },
+    "lyfestyle-oasis-barbershop": {
+      "name": "Lyfestyle Oasis Barbershop",
+      "address": "42 halfway tree road- intersection, Beechwood Ave, Kingston, Jamaica",
+      "placeId": "ChIJywJIbqY_244Rze4weFKHVMw",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJywJIbqY_244Rze4weFKHVMw",
+      "score": 6
+    },
+    "modern-cutz": {
+      "name": "Modern Cutz",
+      "address": "1 Balmoral Avenue, Half Way Tree Road, Kingston, Jamaica",
+      "placeId": "ChIJVWX4oDs_244RFIOeeX6mOFs",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJVWX4oDs_244RFIOeeX6mOFs",
+      "score": 6
+    },
+    "physical-therapy-solutions": {
+      "name": "Physical Therapy Solutions",
+      "address": "11 Braemar Ave, Kingston, Jamaica",
+      "placeId": "ChIJp6AipFY_244R_8BQj6N4PiA",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJp6AipFY_244R_8BQj6N4PiA",
+      "score": 6
+    },
+    "physio-planet-limited": {
+      "name": "Physio Planet Limited",
+      "address": "The Bignall Building Intersection of Hagley Park Road and Maxfield Ave, 10 Half Way Tree Road, Kingston, Jamaica",
+      "placeId": "ChIJya9ILyk_244REzq0D9_rx9g",
+      "googleUrl": "https://search.google.com/local/writereview?placeid=ChIJya9ILyk_244REzq0D9_rx9g",
+      "score": 6
     }
   }
 }

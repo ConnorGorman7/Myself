@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { Redis } from "@upstash/redis";
 import redirects from "@/data/review-links.json";
 
 type ReviewLink = {
@@ -6,11 +7,19 @@ type ReviewLink = {
   address?: string;
   placeId?: string;
   googleUrl: string;
+  deployedAt?: string;
 };
 
 const reviewLinks = redirects.businesses as Record<string, ReviewLink>;
 
 export const dynamic = "force-dynamic";
+
+let redis: Redis | null = null;
+try {
+  redis = Redis.fromEnv();
+} catch {
+  // KV not configured — hits won't be tracked
+}
 
 export async function GET(
   request: Request,
@@ -36,6 +45,9 @@ export async function GET(
       referer: request.headers.get("referer"),
     })
   );
+
+  // fire-and-forget — don't block the redirect on KV latency
+  redis?.incr(`hits:${slug}`).catch(() => {});
 
   return NextResponse.redirect(review.googleUrl, {
     status: 307,

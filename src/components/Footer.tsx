@@ -1,4 +1,13 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+
 export function Footer() {
+  const pathname = usePathname();
+
+  // Standalone client demos render their own chrome — hide the portfolio footer.
+  if (pathname.startsWith("/demo")) return null;
+
   return (
     <footer className="mt-auto border-t border-border">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6">

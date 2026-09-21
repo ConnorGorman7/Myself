@@ -22,6 +22,10 @@ function linksFor(pathname: string) {
 
 export function Nav() {
   const pathname = usePathname();
+
+  // Standalone client demos render their own chrome — hide the portfolio nav.
+  if (pathname.startsWith("/demo")) return null;
+
   const links = linksFor(pathname);
 
   return (

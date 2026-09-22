@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#EEEDE8; --stone:#CBC6BA; --slate:#2E3B40; --brass:#9C7A2E; --ink:#1E2224; --soft:#5B6468;
+  --paper:#F4EFE7; --stone:#DDCDB6; --slate:#2C2521; --brass:#A87D2E; --ink:#211C18; --soft:#6F6458;
   --display:"Gloock", Georgia, "Times New Roman", serif;
   --body:"Karla", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -30,7 +30,7 @@ nav.links{display:flex;gap:28px;align-items:center;font-size:16px;font-weight:50
 nav.links a{text-decoration:none}
 nav.links a:hover{text-decoration:underline;text-underline-offset:4px}
 @media (max-width:720px){nav.links a:not(.btn){display:none}}
-.btn{display:inline-block;background:var(--slate);color:#fff;border:0;border-radius:999px;padding:14px 26px;font:600 16px/1 var(--body);text-decoration:none;cursor:pointer}
+.btn{display:inline-block;background:var(--slate);color:#fff;border:0;border-radius:999px;padding:16px 32px;font:600 18px/1 var(--body);text-decoration:none;cursor:pointer}
 .btn:hover{background:#1F292D}
 .btn.line{background:transparent;color:var(--slate);box-shadow:inset 0 0 0 1.5px var(--slate)}
 .btn.line:hover{background:var(--slate);color:#fff}
@@ -41,7 +41,7 @@ nav.links a:hover{text-decoration:underline;text-underline-offset:4px}
 .hero p{max-width:38ch;color:var(--soft);font-size:20px;margin:24px 0 32px}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
 .arch{position:relative;aspect-ratio:3/4;border-radius:999px 999px 0 0;background:var(--slate);overflow:hidden;
-  box-shadow:0 0 0 14px var(--stone), 0 0 0 15px #B7B1A3}
+  box-shadow:0 0 0 14px var(--stone), 0 0 0 15px #CBBBA0}
 .arch::before{content:"";position:absolute;inset:0;background:
   repeating-linear-gradient(0deg,transparent 0 58px,rgba(255,255,255,.05) 58px 60px),
   radial-gradient(120% 70% at 50% 0%,rgba(255,255,255,.12),transparent 60%)}
@@ -119,7 +119,7 @@ h2{font:400 clamp(40px,5.5vw,60px)/1.05 var(--display);margin-bottom:14px}
 .hours td:last-child{text-align:right;font-weight:600}
 .hours tr.today td{color:var(--brass)}
 .map{border-radius:160px 160px 12px 12px;overflow:hidden;min-height:380px;box-shadow:0 0 0 1px var(--stone)}
-.map iframe{width:100%;height:100%;min-height:380px;border:0;display:block;filter:grayscale(.6)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
 @media (max-width:720px){.visit-grid{grid-template-columns:1fr}}
 footer{border-top:1px solid var(--stone);padding:28px 0 calc(28px + env(safe-area-inset-bottom,0px));font-size:14px;color:var(--soft)}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
@@ -169,13 +169,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <h2>Who's in the chair</h2>
     <p class="intro">Regulars come back for the cut and stay for the conversation.</p>
     <div class="ppl">
-      <div class="person"><div class="mono">T</div><h3>Trevor</h3><p>Precision cuts and new-look consults. Ask him for a change and he'll talk you through what will suit you.</p></div>
-      <div class="person"><div class="mono">H</div><h3>Howard</h3><p>Classic cuts and hot-towel shaves, with some of the best chair-side conversation in Kingston.</p></div>
-    </div>
-    <div class="said">
-      <p>Rated 4.5 on Google by people who say it's the best cut they've had in years.</p>
-      <p>Visitors from out of town keep saying they'll be back next time they're in Kingston.</p>
-      <p>Clients mention real advice on keeping a style looking right between visits.</p>
+      <div class="person"><div class="mono">T</div><h3>Trevor</h3><p>Barber &amp; stylist</p></div>
+      <div class="person"><div class="mono">H</div><h3>Howard</h3><p>Barber &amp; stylist</p></div>
     </div>
   </div>
 </section>
@@ -207,12 +202,15 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <script>
 const SHOP={
   services:[
-    {id:"cut",name:"Men's cut",desc:"Consult, cut and style.",price:28,mins:30},
-    {id:"cutbeard",name:"Cut and beard",desc:"Full cut with beard shaped to match.",price:38,mins:45},
-    {id:"shave",name:"Hot-towel shave",desc:"Straight razor, hot towels, the full treatment.",price:32,mins:30},
-    {id:"beard",name:"Beard trim",desc:"Shape, line and tidy.",price:15,mins:15},
-    {id:"womens",name:"Women's cut and style",desc:"Wash, cut and blow-dry.",price:45,mins:60},
-    {id:"kids",name:"Kids cut",desc:"12 and under.",price:20,mins:30}
+    {id:"cut",name:"Men's cut",desc:"",price:28,mins:30},
+    {id:"cutbeard",name:"Cut and beard",desc:"",price:38,mins:45},
+    {id:"shave",name:"Hot-towel shave",desc:"",price:32,mins:30},
+    {id:"beard",name:"Beard trim",desc:"",price:15,mins:15},
+    {id:"buzz",name:"Buzz cut",desc:"",price:22,mins:20},
+    {id:"womens",name:"Women's cut and style",desc:"",price:45,mins:60},
+    {id:"blowdry",name:"Wash and blow-dry",desc:"",price:30,mins:45},
+    {id:"greyblend",name:"Grey blending",desc:"",price:25,mins:30},
+    {id:"kids",name:"Kids cut",desc:"12 and under",price:20,mins:30}
   ],
   people:[{id:"any",name:"First available",note:"Soonest opening"},{id:"trevor",name:"Trevor",note:"Cuts and consults"},{id:"howard",name:"Howard",note:"Cuts and shaves"}],
   hours:{0:null,1:null,2:[9,21],3:[9,21],4:[9,21],5:[9,21],6:[9,21]}
@@ -222,7 +220,7 @@ const $=s=>document.querySelector(s);
 function fmtH(h){const m=Math.round((h%1)*60),hr=Math.floor(h);return `${hr%12||12}${m?':'+String(m).padStart(2,'0'):''} ${hr<12?'am':'pm'}`}
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 
-$("#svc").innerHTML=SHOP.services.map(s=>`<div class="row"><h3>${s.name}</h3><span class="p">$${s.price}</span><span class="d">${s.desc} ${s.mins} min.</span></div>`).join("");
+$("#svc").innerHTML=SHOP.services.map(s=>`<div class="row"><h3>${s.name}</h3><span class="p">$${s.price}</span><span class="d">${s.desc?s.desc+' · ':''}${s.mins} min.</span></div>`).join("");
 
 const now=new Date(),td=now.getDay(),th=SHOP.hours[td],hn=now.getHours()+now.getMinutes()/60;
 $("#openNow").innerHTML=th&&hn>=th[0]&&hn<th[1]?`<span class="dot"></span>Open now until ${fmtH(th[1])}`:`<span class="dot closed"></span>Closed now. Book ahead online`;

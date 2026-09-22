@@ -30,7 +30,7 @@ header.top{display:flex;justify-content:space-between;align-items:center;padding
 nav.links{display:flex;gap:28px;align-items:center;font-weight:500;font-size:15px}
 nav.links a{text-decoration:none}
 nav.links a:hover{color:var(--red)}
-.btn{display:inline-block;background:var(--red);color:#fff;border:0;border-radius:4px;padding:14px 22px;font:700 16px/1 var(--body);text-decoration:none;cursor:pointer}
+.btn{display:inline-block;background:var(--red);color:#fff;border:0;border-radius:4px;padding:16px 30px;font:700 18px/1 var(--body);text-decoration:none;cursor:pointer}
 .btn:hover{background:#A91F1F}
 .btn.ghost{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 2px var(--navy)}
 .btn.ghost:hover{background:var(--navy);color:#fff}
@@ -183,9 +183,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <h2>The chairs</h2>
     <p class="intro">Three barbers, one standard. Pick someone you know, or take whoever's free first.</p>
     <div class="barbers">
-      <div class="barber"><h3>Soussan</h3><p>The name on the window. Scissor work and classic men's cuts, done right the first time.</p></div>
-      <div class="barber"><h3>Ali</h3><p>Fades and tapers, sharp line-ups. Tell him what you want and he'll get it.</p></div>
-      <div class="barber"><h3>Naz</h3><p>Quick, clean, consistent. The go-to when you've got twenty minutes between classes.</p></div>
+      <div class="barber"><h3>Soussan</h3><p>Owner</p></div>
+      <div class="barber"><h3>Ali</h3><p>Barber</p></div>
+      <div class="barber"><h3>Naz</h3><p>Barber</p></div>
     </div>
   </div>
 </section>
@@ -217,12 +217,16 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <script>
 const SHOP = {
   services:[
-    {id:"cut",name:"Men's haircut",note:"Scissor or clipper",price:20,mins:30},
-    {id:"fade",name:"Skin fade",note:"Includes line-up",price:25,mins:30},
-    {id:"cutbeard",name:"Cut + beard",note:"Haircut with beard shape-up",price:30,mins:45},
-    {id:"beard",name:"Beard trim",note:"Shape and line-up",price:12,mins:15},
-    {id:"kids",name:"Kids cut",note:"12 and under",price:17,mins:30},
-    {id:"senior",name:"Seniors cut",note:"65 and over",price:17,mins:30}
+    {id:"cut",name:"Men's haircut",note:"",price:20,mins:30},
+    {id:"fade",name:"Skin fade",note:"",price:25,mins:30},
+    {id:"cutbeard",name:"Cut + beard",note:"",price:30,mins:45},
+    {id:"buzz",name:"Buzz cut",note:"",price:15,mins:20},
+    {id:"lineup",name:"Line-up / edge-up",note:"",price:10,mins:15},
+    {id:"beard",name:"Beard trim",note:"",price:12,mins:15},
+    {id:"shave",name:"Hot towel shave",note:"",price:22,mins:30},
+    {id:"headshave",name:"Head shave",note:"",price:18,mins:30},
+    {id:"kids",name:"Kids cut",note:"12 & under",price:17,mins:30},
+    {id:"senior",name:"Seniors cut",note:"65 & over",price:17,mins:30}
   ],
   barbers:[{id:"any",name:"First available",note:"Fastest option"},{id:"soussan",name:"Soussan"},{id:"ali",name:"Ali"},{id:"naz",name:"Naz"}],
   hours:{0:null,1:[8,18],2:[8,18],3:[8,18],4:[8,18],5:[8,18],6:[8,18]}

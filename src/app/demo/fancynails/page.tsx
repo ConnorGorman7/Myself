@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond } from "next/font/google";
-import { MpNailsDemo } from "@/components/MpNailsDemo";
+import { FancyNailsDemo } from "@/components/FancyNailsDemo";
 
 // Elegant serif for display headings — scoped to this demo only.
 const cormorant = Cormorant_Garamond({
@@ -11,16 +11,16 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "MP Nails — Kingston Nail Salon & Waxing",
+  title: "Fancy Nails — Kingston Nail Salon & Waxing",
   description:
-    "MP Nails in Kingston, ON — manicures, pedicures, nail art, and waxing. Book your appointment today.",
+    "Fancy Nails in Kingston, ON — manicures, pedicures, nail art, and waxing. Book your appointment today.",
   robots: { index: false, follow: false },
 };
 
-export default function MpNailsPage() {
+export default function FancyNailsPage() {
   return (
     <div className={cormorant.variable}>
-      <MpNailsDemo />
+      <FancyNailsDemo />
     </div>
   );
 }

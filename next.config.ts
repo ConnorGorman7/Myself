@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
       { source: "/demo/totallook", destination: "/demo/totallook.html" },
     ];
   },
+  // The nail salon demo was renamed from the wrong "MP Nails" to "Fancy Nails".
+  async redirects() {
+    return [
+      { source: "/demo/mpnails", destination: "/demo/fancynails", permanent: true },
+    ];
+  },
 };
 
 export default nextConfig;

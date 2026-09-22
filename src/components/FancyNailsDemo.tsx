@@ -3,17 +3,17 @@
 import { useState } from "react";
 
 /* ────────────────────────────────────────────────────────────────────────
-   MP Nails design demo (placeholder content)
+   Fancy Nails design demo (placeholder content)
    Palette is intentionally self-contained (warm cream + rose-gold) so it
    reads as a nail salon, independent of the portfolio's dark theme.
    Swap the PhotoSlot blocks for real imagery when available.
    ──────────────────────────────────────────────────────────────────────── */
 
-const PHONE_DISPLAY = "613-547-6497";
-const PHONE_TEL = "6135476497";
-const ADDRESS = "311 Bagot St, Kingston, ON K7K 3B6";
+const PHONE_DISPLAY = "613-766-0877";
+const PHONE_TEL = "6137660877";
+const ADDRESS = "255 Bagot St Unit A, Kingston, ON K7L 3G4";
 const MAPS_URL =
-  "https://www.google.com/maps/search/?api=1&query=311+Bagot+St+Kingston+ON+K7K+3B6";
+  "https://www.google.com/maps/search/?api=1&query=255+Bagot+St+Unit+A+Kingston+ON+K7L+3G4";
 
 const NAV_LINKS = [
   { href: "#services", label: "Services" },
@@ -59,9 +59,9 @@ const TIME_SLOTS = [
 ];
 
 const HOURS = [
-  { day: "Mon – Fri", time: "9:30 AM – 7:00 PM" },
+  { day: "Mon – Fri", time: "9:30 AM – 7:30 PM" },
   { day: "Saturday", time: "9:30 AM – 6:00 PM" },
-  { day: "Sunday", time: "11:00 AM – 4:00 PM" },
+  { day: "Sunday", time: "11:00 AM – 5:00 PM" },
 ];
 
 /** A labelled placeholder where a real photo will go. */
@@ -97,7 +97,7 @@ function PhotoSlot({
   );
 }
 
-export function MpNailsDemo() {
+export function FancyNailsDemo() {
   const [submitted, setSubmitted] = useState(false);
   const [slot, setSlot] = useState("");
 
@@ -108,7 +108,7 @@ export function MpNailsDemo() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <a href="#top" className="flex items-baseline gap-2">
             <span className="font-serif text-2xl font-semibold tracking-tight text-[#3a3033] [font-family:var(--font-cormorant)]">
-              MP Nails
+              Fancy Nails
             </span>
             <span className="hidden font-sans text-[11px] uppercase tracking-[0.2em] text-[#b76e79] sm:inline">
               Kingston
@@ -387,7 +387,7 @@ export function MpNailsDemo() {
                 {/* Connor's capability note for the pitch */}
                 <div className="mt-5 rounded-lg border border-dashed border-[#d8bfc3] bg-[#f9eef0] p-4">
                   <p className="font-sans text-xs leading-relaxed text-[#8a5560]">
-                    <span className="font-semibold">Note for MP Nails:</span> I
+                    <span className="font-semibold">Note for Fancy Nails:</span> I
                     can wire this straight into an Outlook calendar so every
                     booking drops in automatically, or have it text you the
                     details when someone books.
@@ -505,7 +505,7 @@ export function MpNailsDemo() {
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 py-8 sm:flex-row">
           <div className="flex items-baseline gap-2">
             <span className="font-serif text-xl font-semibold text-[#3a3033] [font-family:var(--font-cormorant)]">
-              MP Nails
+              Fancy Nails
             </span>
             <span className="font-sans text-xs text-[#a3969a]">
               {ADDRESS}
@@ -521,7 +521,7 @@ export function MpNailsDemo() {
           </div>
         </div>
         <p className="pb-6 text-center font-sans text-xs text-[#c3b7ba]">
-          Design demo · not the official MP Nails website
+          Design demo · not the official Fancy Nails website
         </p>
       </footer>
     </div>

@@ -38,8 +38,8 @@ export type Project = {
   decisions?: { title: string; body: string }[];
   /** A line from a manager/client. Attribute by title unless they agreed to be named. */
   quote?: { text: string; attribution: string };
-  /** One-line activity summary, e.g. commit/PR counts. */
-  activity?: string;
+  /** Activity screenshot (e.g. Azure DevOps contributions), relative to /public. */
+  activity?: { src: string; alt: string; width: number; height: number; caption: string };
   /** Rendered only if non-empty — GitHub, live demo, App Store, etc. */
   links: ProjectLink[];
   screenshots: Screenshot[];
@@ -113,7 +113,13 @@ export const projects: Project[] = [
       text: "His performance throughout the internship has been exceptional and significantly above expectations for an intern-level role.",
       attribution: "Supervisor, Novari Health · 12-month internship review",
     },
-    activity: "683 commits · 30 pull requests merged · 79 pull requests reviewed (Azure DevOps, past year)",
+    activity: {
+      src: "/work/hospital-referral-idp/devops-activity.png",
+      alt: "Azure DevOps contribution graph: 963 contributions in a year, including 683 commits, 30 pull requests created, 79 pull requests reviewed, and 80 work items closed",
+      width: 900,
+      height: 507,
+      caption: "My Azure DevOps activity over the internship: 683 commits, 30 PRs merged, 79 PRs reviewed.",
+    },
     stack: [
       "C#",
       "Azure OpenAI",

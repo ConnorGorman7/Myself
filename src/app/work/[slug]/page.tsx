@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FadeUp } from "@/components/FadeUp";
@@ -150,6 +151,31 @@ export default async function ProjectPage({ params }: Params) {
           </FadeUp>
         )}
 
+        {project.activity && (
+          <FadeUp className="mt-14">
+            <section>
+              <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
+                Activity
+              </h2>
+              <figure className="mt-5">
+                <div className="overflow-hidden rounded-md border border-border bg-white p-3 sm:p-4">
+                  <Image
+                    src={project.activity.src}
+                    alt={project.activity.alt}
+                    width={project.activity.width}
+                    height={project.activity.height}
+                    sizes="(max-width: 768px) 100vw, 720px"
+                    className="h-auto w-full"
+                  />
+                </div>
+                <figcaption className="mt-3 font-mono text-xs text-text-dim">
+                  {project.activity.caption}
+                </figcaption>
+              </figure>
+            </section>
+          </FadeUp>
+        )}
+
         {project.quote && (
           <FadeUp className="mt-14">
             <figure className="border-l-2 border-green pl-5">
@@ -202,11 +228,6 @@ export default async function ProjectPage({ params }: Params) {
           </FadeUp>
         )}
 
-        {project.activity && (
-          <FadeUp className="mt-6">
-            <p className="font-mono text-xs text-text-dim">{project.activity}</p>
-          </FadeUp>
-        )}
 
         {/* Links */}
         {project.links.length > 0 && (

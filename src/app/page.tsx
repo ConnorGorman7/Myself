@@ -12,6 +12,7 @@ import {
   RESUME_HREF,
   education,
   experience,
+  managerReview,
   skills,
 } from "@/lib/profile";
 
@@ -132,16 +133,6 @@ export default function Home() {
                   <p className="mt-2 max-w-3xl text-sm leading-relaxed text-text-dim sm:text-base">
                     {role.summary}
                   </p>
-                  {role.quote && (
-                    <figure className="mt-3 max-w-3xl">
-                      <blockquote className="text-sm italic leading-relaxed text-foreground sm:text-base">
-                        &ldquo;{role.quote.text}&rdquo;
-                      </blockquote>
-                      <figcaption className="mt-1 font-mono text-xs text-text-dim">
-                        {role.quote.attribution}
-                      </figcaption>
-                    </figure>
-                  )}
                   {role.caseStudy && (
                     <Link
                       href={role.caseStudy}
@@ -154,6 +145,36 @@ export default function Home() {
               </StaggerItem>
             ))}
           </StaggerList>
+        </section>
+
+        {/* Manager reviews: verbatim, attributed by title */}
+        <section className="border-t border-border pt-12 pb-14">
+          <FadeUp>
+            <SectionLabel>From my manager</SectionLabel>
+            <figure className="mt-6 border-l-2 border-green pl-5 sm:pl-6">
+              <blockquote className="max-w-3xl text-xl font-medium leading-relaxed text-foreground sm:text-2xl">
+                &ldquo;{managerReview.featured.text}&rdquo;
+              </blockquote>
+              <figcaption className="mt-3 font-mono text-xs text-text-dim">
+                {managerReview.attribution} · {managerReview.featured.source}
+              </figcaption>
+            </figure>
+          </FadeUp>
+          <StaggerList className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {managerReview.quotes.map((q) => (
+              <StaggerItem key={q.text} className="h-full">
+                <figure className="flex h-full flex-col justify-between gap-4 rounded-md border border-border bg-bg-elevated p-5">
+                  <blockquote className="leading-relaxed text-foreground">
+                    &ldquo;{q.text}&rdquo;
+                  </blockquote>
+                  <figcaption className="font-mono text-xs text-text-dim">{q.source}</figcaption>
+                </figure>
+              </StaggerItem>
+            ))}
+          </StaggerList>
+          <FadeUp>
+            <p className="mt-6 font-mono text-xs text-green">{managerReview.rating}</p>
+          </FadeUp>
         </section>
 
         {/* Education + skills */}

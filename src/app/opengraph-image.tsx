@@ -58,6 +58,16 @@ export default async function OgImage() {
             marginTop: 16,
           }}
         >
+          Production LLM systems · Canadian, TN-eligible · Open to relocation
+        </div>
+        <div
+          style={{
+            fontSize: 18,
+            color: "#8a9590",
+            marginTop: 10,
+            fontFamily: "monospace",
+          }}
+        >
           connorgorman.ca
         </div>
       </div>

@@ -1,12 +1,7 @@
-import type { Metadata } from "next";
-import { WorkPageClient } from "@/components/WorkPageClient";
+import { redirect } from "next/navigation";
 
-export const metadata: Metadata = {
-  title: "Work",
-  description:
-    "Connor Gorman's portfolio — AI Engineer projects, internship experience, and shipped products including SweatTax and DatePlanned.",
-};
-
+// The portfolio now lives at "/". Keep /work working for old links;
+// project pages stay at /work/[slug].
 export default function Work() {
-  return <WorkPageClient />;
+  redirect("/");
 }

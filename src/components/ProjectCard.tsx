@@ -50,11 +50,20 @@ export function ProjectCard({ project }: { project: Project }) {
               sizes="(max-width: 640px) 100vw, 50vw"
               className="object-cover transition-transform duration-300 group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
             />
+          ) : project.results[0] ? (
+            /* No thumbnail: lead with the headline metric instead */
+            <div className="absolute inset-0 flex flex-col justify-end bg-[radial-gradient(ellipse_at_top_left,rgba(11,102,35,0.08),transparent_60%)] p-5">
+              <span className="text-3xl font-bold tracking-tight text-green sm:text-4xl">
+                {project.results[0].value}
+              </span>
+              <span className="mt-1 font-mono text-xs text-text-dim">
+                {project.results[0].label}
+              </span>
+            </div>
           ) : (
-            /* Placeholder slot — shows until a thumbnail lands in /public */
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="font-mono text-[10px] text-text-dim">
-                /public/work/{project.slug}/thumb.jpg
+            <div className="absolute inset-0 flex items-end bg-[radial-gradient(ellipse_at_top_left,rgba(11,102,35,0.08),transparent_60%)] p-5">
+              <span className="font-mono text-xs uppercase tracking-widest text-text-dim">
+                {project.context}
               </span>
             </div>
           )}
@@ -70,6 +79,9 @@ export function ProjectCard({ project }: { project: Project }) {
               {project.year}
             </span>
           </div>
+          {project.context && (
+            <p className="-mt-1 font-mono text-xs text-text-dim">{project.context}</p>
+          )}
           <p className="text-sm leading-relaxed text-text-dim">
             {project.oneLiner}
           </p>

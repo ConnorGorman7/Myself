@@ -7,15 +7,17 @@ type Props = {
   title: string;
   year: string;
   tags: string;
+  context?: string;
 };
 
-export function ProjectHero({ slug, title, year, tags }: Props) {
+export function ProjectHero({ slug, title, year, tags, context }: Props) {
   return (
     <motion.div layoutId={`project-${slug}`}>
       <div className="flex items-baseline justify-between gap-4">
         <h1 className="text-4xl font-bold tracking-tight">{title}</h1>
         <span className="font-mono text-sm text-text-dim">{year}</span>
       </div>
+      {context && <p className="mt-2 text-text-dim">{context}</p>}
       <p className="mt-2 font-mono text-xs text-text-dim">{tags}</p>
     </motion.div>
   );

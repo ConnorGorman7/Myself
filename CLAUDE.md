@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-`connorgorman.ca` — a dual-audience portfolio site with two distinct sections sharing one visual system:
+`connorgorman.ca` — **recruiter-first portfolio** (decided 2026-11-16, during an SF job hunt).
 
-- `/work` — personality-forward career portfolio for recruiters
-- `/studio` — results-first client pitch page, mobile-first in testing order
-- `/contact` — two audience paths: clients get a compact intake dialog (`ClientIntakeDialog`, onboarding questions → structured mailto); recruiters get direct email/LinkedIn/GitHub links. No generic contact form.
+- `/` — the portfolio itself: name, pitch, resume PDF, selected work, experience, education, skills. Content mirrors the resume (`public/connor-gorman-resume.pdf`) via `src/lib/profile.ts` and `src/lib/projects.ts` — keep them in sync.
+- `/work/[slug]` — project case studies. `/work` redirects to `/`.
+- `/studio`, `/contact`, `/demo/*`, `/nfc` — the client side is **paused, not deleted**: still live by direct link, `noindex`, out of the sitemap and nav. Don't link to it from portfolio pages unless Connor brings it back.
 
-The landing page offers both paths as a soft split within one page — audience-first cards ("For recruiters" / "For clients"), not a toggle UI. No blog — socials cover that.
+No blog — socials cover that.
 
 ## Tech Stack
 
@@ -47,7 +47,7 @@ Things that are genuinely unresolved — ask rather than assuming an answer:
 - Contact tool: Resend vs. Cal.com
 - Exact typography (current `DESIGN.md` typography section is a proposal, not locked)
 - Final shape/parameters of the hero's abstract motif
-- Copy polish: landing/contact *structure* is locked (audience-first split, client intake + recruiter links, decided 2026-07-09), but the exact wording of card descriptions and intake questions is draft — Connor may revise
+- Copy polish: the homepage hero pitch line is draft — Connor may revise. Everything else on the portfolio is taken from the resume.
 
 ## Design System
 

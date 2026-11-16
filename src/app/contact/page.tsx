@@ -4,6 +4,7 @@ import { StaggerList, StaggerItem } from "@/components/Stagger";
 import { ClientIntakeDialog } from "@/components/ClientIntakeDialog";
 
 export const metadata: Metadata = {
+  robots: { index: false },
   title: "Contact — Connor Gorman",
   description:
     "Get in touch with Connor Gorman — for AI engineering contract work, or to connect about career opportunities.",

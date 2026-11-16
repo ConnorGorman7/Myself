@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     template: "%s — Connor Gorman",
   },
   description:
-    "AI Engineer building intelligent systems at the intersection of ML and product.",
+    "AI Engineer. Built a production LLM document pipeline that processed 300,000+ hospital referrals. Canadian citizen, TN-eligible, open to relocation.",
   openGraph: {
     title: "Connor Gorman",
     description:
-      "AI Engineer building intelligent systems at the intersection of ML and product.",
+      "AI Engineer. Built a production LLM document pipeline that processed 300,000+ hospital referrals. Canadian citizen, TN-eligible, open to relocation.",
     url: "https://connorgorman.ca",
     siteName: "Connor Gorman",
     locale: "en_CA",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Connor Gorman",
     description:
-      "AI Engineer building intelligent systems at the intersection of ML and product.",
+      "AI Engineer. Built a production LLM document pipeline that processed 300,000+ hospital referrals. Canadian citizen, TN-eligible, open to relocation.",
   },
 };
 
@@ -46,8 +46,9 @@ const personSchema = {
   name: "Connor Gorman",
   url: "https://connorgorman.ca",
   jobTitle: "AI Engineer",
+  alumniOf: { "@type": "CollegeOrUniversity", name: "Queen's University" },
   description:
-    "AI Engineer building intelligent systems at the intersection of ML and product.",
+    "AI Engineer. Built a production LLM document pipeline that processed 300,000+ hospital referrals. Canadian citizen, TN-eligible, open to relocation.",
   sameAs: [
     "https://www.linkedin.com/in/connor-gorman7",
     "https://github.com/ConnorGorman7",

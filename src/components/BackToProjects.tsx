@@ -25,12 +25,12 @@ export function BackToProjects() {
     event.preventDefault();
     if (cueing) return;
     setCueing(true);
-    timeoutRef.current = setTimeout(() => router.push("/work"), CUE_MS);
+    timeoutRef.current = setTimeout(() => router.push("/"), CUE_MS);
   }
 
   return (
     <Link
-      href="/work"
+      href="/"
       onClick={handleClick}
       className="inline-flex h-9 min-w-44 items-center justify-center gap-2 rounded-md border border-border bg-bg-elevated px-4 font-mono text-xs text-text-dim transition duration-200 hover:border-green-dim hover:text-green focus-visible:border-green focus-visible:text-green focus-visible:outline-none"
     >

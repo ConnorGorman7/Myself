@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FadeUp } from "@/components/FadeUp";
 import { ProjectHero } from "@/components/ProjectHero";
@@ -16,13 +17,18 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const project = getProject(slug);
-  return { title: project?.title ?? "Project" };
+  if (!project) return { title: "Project" };
+  return { title: project.title, description: project.oneLiner };
 }
 
 export default async function ProjectPage({ params }: Params) {
   const { slug } = await params;
   const project = getProject(slug);
   if (!project) notFound();
+
+  const screenshots = project.screenshots.filter((shot) => shot.src);
+  const projectIndex = projects.findIndex((p) => p.slug === project.slug);
+  const next = projects[(projectIndex + 1) % projects.length];
 
   return (
     <main className="mx-auto w-full max-w-3xl">
@@ -37,47 +43,32 @@ export default async function ProjectPage({ params }: Params) {
             title={project.title}
             year={project.year}
             tags={project.tags.join(" · ")}
+            context={project.context}
           />
         </FadeUp>
       </div>
 
-      {/* Hero image — drop a shot at /public/work/<slug>/hero.jpg */}
-      <PhotoBand src={project.heroImage} alt={project.title} ratio="16/9" />
+      {/* Hero image — only when one exists; no placeholder slots in production */}
+      {project.heroImage && (
+        <PhotoBand src={project.heroImage} alt={project.title} ratio="16/9" />
+      )}
 
       <div className="px-6 pt-10 pb-16">
-        {/* Problem / Solution */}
-        <FadeUp>
-          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
-            <section>
-              <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
-                Problem
-              </h2>
-              <p className="mt-4 text-sm leading-relaxed text-text-dim sm:text-base">
-                {project.problem}
-              </p>
-            </section>
-            <section>
-              <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
-                Solution
-              </h2>
-              <p className="mt-4 text-sm leading-relaxed text-text-dim sm:text-base">
-                {project.solution}
-              </p>
-            </section>
-          </div>
-        </FadeUp>
-
-        {/* Key results */}
+        {/* Key results first — that's what gets scanned */}
         {project.results.length > 0 && (
-          <FadeUp className="mt-14">
+          <FadeUp>
             <section>
               <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
                 Key results
               </h2>
-              <div className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-3">
-                {project.results.map((result, i) => (
+              <div
+                className={`mt-5 grid grid-cols-2 gap-4 ${
+                  project.results.length === 4 ? "sm:grid-cols-4" : "sm:grid-cols-3"
+                }`}
+              >
+                {project.results.map((result) => (
                   <div
-                    key={i}
+                    key={result.label}
                     className="rounded-md border border-border bg-bg-elevated p-5"
                   >
                     <div className="text-2xl font-bold tracking-tight text-green">
@@ -93,8 +84,33 @@ export default async function ProjectPage({ params }: Params) {
           </FadeUp>
         )}
 
+        <FadeUp className={project.results.length > 0 ? "mt-14" : undefined}>
+          <section>
+            <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
+              Problem
+            </h2>
+            <p className="mt-4 leading-relaxed text-text-dim">{project.problem}</p>
+          </section>
+        </FadeUp>
+
+        <FadeUp className="mt-14">
+          <section>
+            <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
+              What I built
+            </h2>
+            <ul className="mt-4 space-y-3">
+              {project.built.map((item) => (
+                <li key={item} className="flex gap-3 leading-relaxed text-foreground">
+                  <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-green" aria-hidden="true" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </FadeUp>
+
         {/* Screenshots — horizontal scroll, the page itself never scrolls sideways */}
-        {project.screenshots.length > 0 && (
+        {screenshots.length > 0 && (
           <FadeUp className="mt-14">
             <section>
               <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
@@ -103,7 +119,7 @@ export default async function ProjectPage({ params }: Params) {
               <div className="mt-5">
                 <ScreenshotStrip
                   slug={project.slug}
-                  screenshots={project.screenshots}
+                  screenshots={screenshots}
                   ratio={project.screenshotRatio}
                 />
               </div>
@@ -154,6 +170,23 @@ export default async function ProjectPage({ params }: Params) {
               </div>
             </section>
           </FadeUp>
+        )}
+
+        {/* Next project */}
+        {next.slug !== project.slug && (
+          <div className="mt-16 border-t border-border pt-8">
+            <Link
+              href={`/work/${next.slug}`}
+              className="group flex flex-col gap-1"
+            >
+              <span className="font-mono text-xs uppercase tracking-widest text-text-dim">
+                Next project
+              </span>
+              <span className="text-lg font-semibold text-foreground transition-colors group-hover:text-green">
+                {next.title} →
+              </span>
+            </Link>
+          </div>
         )}
       </div>
     </main>

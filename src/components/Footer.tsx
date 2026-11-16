@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import { EMAIL, GITHUB, LINKEDIN } from "@/lib/profile";
 
 export function Footer() {
   const pathname = usePathname();
@@ -16,7 +17,15 @@ export function Footer() {
         </span>
         <div className="flex items-center gap-5">
           <a
-            href="https://github.com/ConnorGorman7"
+            href={LINKEDIN}
+            target="_blank"
+            rel="noreferrer"
+            className="font-mono text-xs text-text-dim transition-colors hover:text-green"
+          >
+            LinkedIn ↗
+          </a>
+          <a
+            href={GITHUB}
             target="_blank"
             rel="noreferrer"
             className="font-mono text-xs text-text-dim transition-colors hover:text-green"
@@ -24,7 +33,7 @@ export function Footer() {
             GitHub ↗
           </a>
           <a
-            href="mailto:connorgorman@live.ca"
+            href={`mailto:${EMAIL}`}
             className="font-mono text-xs text-text-dim transition-colors hover:text-green"
           >
             Email ↗

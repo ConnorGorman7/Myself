@@ -1,7 +1,8 @@
 # DESIGN.md — connorgorman.ca
 
-A dual-audience portfolio: a public, personality-forward career side (`/work`)
-and a results-first client pitch side (`/studio`), sharing one visual system.
+A recruiter-first portfolio (`/` + `/work/[slug]`). The client side
+(`/studio`, `/contact`) is paused but still live by direct link — the
+`/studio`- and split-landing-specific rules below apply only if it returns.
 
 > Sections marked **(proposed)** extend beyond what's been explicitly locked
 > in and reflect a reasonable default given everything else here — swap freely.

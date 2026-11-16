@@ -12,6 +12,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 No blog — socials cover that.
 
+**Intro videos** (`/v/[slug]`): one custom video per company, sent to recruiters as a link. Pages are `noindex` and not in the sitemap; slugs carry a random suffix so one company can't guess another's page.
+- Pipeline: `npm run video -- <file> "<Company>" [--recipient Name] [--role "Role"]` (`scripts/video/process.mjs`). Compresses (tone-maps iPhone HDR), grabs a poster, transcribes with local faster-whisper (`.venv-video/`) to `public/v/<slug>.vtt`, uploads the mp4 to Vercel Blob (`BLOB_READ_WRITE_TOKEN` in `.env.local`), and adds the entry to `src/data/videos.json`.
+- After a run: fix caption typos in the `.vtt`, write 2–4 TLDR bullets in `videos.json`, commit + push. Captions/posters live in git; only the mp4 lives in Blob.
+- Tracking: browser beacons → Upstash (`video:<slug>:view|play|complete`). Stats at `/api/v/stats?key=$VIDEO_STATS_KEY` (404 without the key — it lists every company).
+
 ## Tech Stack
 
 - **Framework**: Next.js (App Router) + TypeScript + Tailwind

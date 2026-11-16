@@ -132,6 +132,16 @@ export default function Home() {
                   <p className="mt-2 max-w-3xl text-sm leading-relaxed text-text-dim sm:text-base">
                     {role.summary}
                   </p>
+                  {role.quote && (
+                    <figure className="mt-3 max-w-3xl">
+                      <blockquote className="text-sm italic leading-relaxed text-foreground sm:text-base">
+                        &ldquo;{role.quote.text}&rdquo;
+                      </blockquote>
+                      <figcaption className="mt-1 font-mono text-xs text-text-dim">
+                        {role.quote.attribution}
+                      </figcaption>
+                    </figure>
+                  )}
                   {role.caseStudy && (
                     <Link
                       href={role.caseStudy}

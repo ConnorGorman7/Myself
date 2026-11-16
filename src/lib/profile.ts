@@ -14,6 +14,7 @@ export type Role = {
   summary: string;
   /** Optional case-study route for this role. */
   caseStudy?: string;
+  quote?: { text: string; attribution: string };
 };
 
 export const experience: Role[] = [
@@ -25,6 +26,10 @@ export const experience: Role[] = [
     summary:
       "Built and shipped a production LLM document-processing system for hospital referrals (C#, Azure OpenAI). It processed 300,000+ PDFs from one deployment at 98.7% field-level accuracy and cut processing from ~5 min to ~1 min. Also prepped data for AutoML imaging-protocol prediction (98% top-5 across ~120 classes) and prototyped a RAG-based SMS reminder agent.",
     caseStudy: "/work/hospital-referral-idp",
+    quote: {
+      text: "Exceptional and significantly above expectations for an intern-level role.",
+      attribution: "Supervisor, Novari Health · 12-month review",
+    },
   },
   {
     title: "Independent Technology Consultant",

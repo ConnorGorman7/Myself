@@ -109,6 +109,60 @@ export default async function ProjectPage({ params }: Params) {
           </section>
         </FadeUp>
 
+        {/* Where it shipped */}
+        {project.deployments && project.deployments.length > 0 && (
+          <FadeUp className="mt-14">
+            <section>
+              <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
+                Rolled out to
+              </h2>
+              <ul className="mt-5 divide-y divide-border rounded-md border border-border bg-bg-elevated">
+                {project.deployments.map((d) => (
+                  <li
+                    key={d.name}
+                    className="flex flex-col gap-0.5 px-5 py-3.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+                  >
+                    <span className="font-medium text-foreground">{d.name}</span>
+                    <span className="text-sm text-text-dim sm:text-right">{d.detail}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          </FadeUp>
+        )}
+
+        {/* Tradeoffs — the part worth talking through in an interview */}
+        {project.decisions && project.decisions.length > 0 && (
+          <FadeUp className="mt-14">
+            <section>
+              <h2 className="font-mono text-xs uppercase tracking-widest text-text-dim">
+                Engineering decisions
+              </h2>
+              <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {project.decisions.map((d) => (
+                  <div key={d.title} className="rounded-md border border-border bg-bg-elevated p-5">
+                    <h3 className="font-semibold text-foreground">{d.title}</h3>
+                    <p className="mt-2 text-sm leading-relaxed text-text-dim">{d.body}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          </FadeUp>
+        )}
+
+        {project.quote && (
+          <FadeUp className="mt-14">
+            <figure className="border-l-2 border-green pl-5">
+              <blockquote className="text-lg leading-relaxed text-foreground sm:text-xl">
+                &ldquo;{project.quote.text}&rdquo;
+              </blockquote>
+              <figcaption className="mt-3 font-mono text-xs text-text-dim">
+                {project.quote.attribution}
+              </figcaption>
+            </figure>
+          </FadeUp>
+        )}
+
         {/* Screenshots — horizontal scroll, the page itself never scrolls sideways */}
         {screenshots.length > 0 && (
           <FadeUp className="mt-14">
@@ -145,6 +199,12 @@ export default async function ProjectPage({ params }: Params) {
                 ))}
               </div>
             </section>
+          </FadeUp>
+        )}
+
+        {project.activity && (
+          <FadeUp className="mt-6">
+            <p className="font-mono text-xs text-text-dim">{project.activity}</p>
           </FadeUp>
         )}
 

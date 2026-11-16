@@ -32,6 +32,14 @@ export type Project = {
   built: string[];
   stack: string[];
   results: { value: string; label: string }[];
+  /** Where it shipped. Rendered as a list under "Rolled out to". */
+  deployments?: { name: string; detail: string }[];
+  /** Tradeoffs worth talking through in an interview. */
+  decisions?: { title: string; body: string }[];
+  /** A line from a manager/client. Attribute by title unless they agreed to be named. */
+  quote?: { text: string; attribution: string };
+  /** One-line activity summary, e.g. commit/PR counts. */
+  activity?: string;
   /** Rendered only if non-empty — GitHub, live demo, App Store, etc. */
   links: ProjectLink[];
   screenshots: Screenshot[];
@@ -58,28 +66,68 @@ export const projects: Project[] = [
       height: 219,
     },
     problem:
-      "Hospital staff were keying referral PDFs into the system by hand, about five minutes per referral. The forms vary by clinic, arrive as scans, and contain patient data that can't leave the hospital's tenant.",
+      "Hospital clerks were keying referral PDFs into the system by hand, about five minutes per referral. Every hospital has its own forms, they arrive as scans and faxes, and the patient data can't leave the hospital's cloud tenant.",
     built: [
-      "Built and shipped an Intelligent Document Processing system in C# on Azure OpenAI (GPT-5.4 mini) and Azure Content Understanding, cutting referral processing time from ~5 min to ~1 min.",
-      "Developed the extraction, classification, semantic matching, and field-mapping logic for a pipeline that processed 300,000+ healthcare PDFs from a single BC deployment within months, with all patient data kept in-tenant.",
+      "Built and shipped an Intelligent Document Processing system in C# on Azure OpenAI (GPT-5.4 mini) and Azure Content Understanding. Internally it's IDP; Novari sells it as Automated Referral Transcription & Processing (ARTP). Referrals are processed in the background as they arrive, so a clerk only reviews the pre-filled result: ~5 min down to ~1 min per referral.",
+      "Developed the extraction, page classification, semantic matching, and field-mapping logic. Semantic matching batches every lookup into a single LLM or embedding call and caches prior matches in SQL.",
+      "Implemented it for Island Health, Thunder Bay Regional, and CAMH (Island Health alone processed 300,000+ PDFs within months, all data kept in-tenant) and helped design and build the next version, IDP V3.",
       "Reached 98.7% field-level extraction accuracy on a 50-document labeled test set through prompt iteration and post-processing.",
-      "Built a multithreaded Python batch-testing tool for regression and accuracy evaluation across every form type and edge case. Batched LLM calls and embedding reuse cut test-run time by ~90%.",
-      "Evaluated structured outputs for extraction and dropped them: they roughly doubled output tokens and pushed requests past the 240-second timeout, which outweighed the formatting-accuracy gain.",
+      "Automated cross-client regression testing: 32 forms run in parallel, cutting a full test pass from 1.5 hours to about 10 minutes, so universal changes can ship without breaking any hospital's config.",
+      "Hardened it for production: Polly retry logic around layout and LLM calls, token tracking per step, structured logging for traceability, and unit and integration test suites.",
       "Fixed bugs reported by hospital staff by tracing each to its source in a large C# codebase. Oversized bounding boxes turned out to come from faulty box-selection code, not the prompts.",
     ],
+    deployments: [
+      { name: "Island Health (BC)", detail: "26 referral form types · 300,000+ documents processed" },
+      { name: "Thunder Bay Regional Health Sciences Centre", detail: "MRI and CT referral forms" },
+      { name: "CAMH", detail: "Multi-page forms across separate document types" },
+      { name: "Ontario Health", detail: "Contributed to the V2 implementation" },
+      { name: "Strata Health (VitalHub)", detail: "Set to be the first VitalHub product to use IDP" },
+    ],
+    decisions: [
+      {
+        title: "Dropped structured outputs",
+        body: "They improved formatting but roughly doubled output tokens and pushed requests past our 240-second timeout. Plain JSON with post-processing was the better trade.",
+      },
+      {
+        title: "A non-reasoning model for classification",
+        body: "Reasoning models weren't more accurate at page classification and were slower, so classification went back to GPT-4.1 mini while extraction moved to a reasoning model.",
+      },
+      {
+        title: "Model selection on cost, not just accuracy",
+        body: "Benchmarked GPT-5 mini against Claude ahead of GPT-4's retirement. Claude was about 7× the cost for this workload; GPT-5 mini held 96–97% accuracy and stopped silently \"fixing\" values like invalid birth dates.",
+      },
+      {
+        title: "Move logic out of the LLM",
+        body: "Anything deterministic (date math, paediatric flags, field formatting) runs as post-processing code after extraction. Fewer hallucinations, and failures are debuggable.",
+      },
+      {
+        title: "Exact grounding or nothing",
+        body: "Source-highlight coordinates come from an exact word-level match. Fuzzy matching was removed: no highlight is better than a confident highlight in the wrong place.",
+      },
+      {
+        title: "Built for a 3–4 minute pipeline",
+        body: "Layout analysis plus several LLM calls takes minutes per document, so processing runs in the background on arrival rather than while a clerk waits.",
+      },
+    ],
+    quote: {
+      text: "His performance throughout the internship has been exceptional and significantly above expectations for an intern-level role.",
+      attribution: "Supervisor, Novari Health · 12-month internship review",
+    },
+    activity: "683 commits · 30 pull requests merged · 79 pull requests reviewed (Azure DevOps, past year)",
     stack: [
       "C#",
       "Azure OpenAI",
       "Azure Content Understanding",
       "Python",
-      "Embeddings",
+      "SQL Server",
+      "Polly",
       "Azure DevOps",
     ],
     results: [
       { value: "5 → 1 min", label: "Per-referral processing time" },
       { value: "300k+", label: "PDFs processed, one deployment" },
       { value: "98.7%", label: "Field-level extraction accuracy" },
-      { value: "~90%", label: "Faster eval test runs" },
+      { value: "1.5 h → 10 min", label: "Full regression test run" },
     ],
     links: [],
     screenshots: [],

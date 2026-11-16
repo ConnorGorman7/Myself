@@ -20,6 +20,11 @@ export type Project = {
   tags: string[];
   /** Card thumbnail, relative to /public. Omit to show the headline-metric card instead. */
   thumbnail?: string;
+  /**
+   * Company/client logo shown on the card above the headline metric when there's
+   * no thumbnail. Rendered on a white tile, so full-colour logos read on dark cards.
+   */
+  logo?: { src: string; alt: string; width: number; height: number };
   /** Detail-page hero image, relative to /public. Omit to hide the band entirely. */
   heroImage?: string;
   problem: string;
@@ -46,6 +51,12 @@ export const projects: Project[] = [
     oneLiner:
       "Production LLM document pipeline in live hospital workflows. Cut referral processing from ~5 min to ~1 min.",
     tags: ["C#", "Azure OpenAI", "Python", "LLM Eval"],
+    logo: {
+      src: "/work/hospital-referral-idp/novari-logo.png",
+      alt: "Novari Health, a VitalHub company",
+      width: 768,
+      height: 219,
+    },
     problem:
       "Hospital staff were keying referral PDFs into the system by hand, about five minutes per referral. The forms vary by clinic, arrive as scans, and contain patient data that can't leave the hospital's tenant.",
     built: [
@@ -82,6 +93,8 @@ export const projects: Project[] = [
     oneLiner:
       "Call booking, reviews, and SEO plus AI-search optimization, kept on Squarespace so staff can maintain it.",
     tags: ["Client Work", "SEO", "AI Search", "Squarespace"],
+    thumbnail: "/work/cultivate-kingston/thumb.jpg",
+    heroImage: "/work/cultivate-kingston/hero.jpg",
     problem:
       "Cultivate Kingston needed a way for people to book calls, show social proof, and get found, both in regular search and in AI assistants. The site had to stay on Squarespace so non-technical staff could keep running it after handoff.",
     built: [

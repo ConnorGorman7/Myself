@@ -50,6 +50,27 @@ export function ProjectCard({ project }: { project: Project }) {
               sizes="(max-width: 640px) 100vw, 50vw"
               className="object-cover transition-transform duration-300 group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
             />
+          ) : project.logo && project.results[0] ? (
+            /* Logo projects: full white panel (logos are made for white),
+               logo scales with card width so it never looks mis-sized. */
+            <div className="absolute inset-0 flex flex-col justify-between bg-white p-5">
+              <Image
+                src={project.logo.src}
+                alt={project.logo.alt}
+                width={project.logo.width}
+                height={project.logo.height}
+                sizes="(max-width: 640px) 45vw, 240px"
+                className="h-auto w-[42%] max-w-60 mix-blend-multiply"
+              />
+              <div className="flex flex-col">
+                <span className="text-3xl font-bold tracking-tight text-green sm:text-4xl">
+                  {project.results[0].value}
+                </span>
+                <span className="mt-1 font-mono text-xs text-neutral-600">
+                  {project.results[0].label}
+                </span>
+              </div>
+            </div>
           ) : project.results[0] ? (
             /* No thumbnail: lead with the headline metric instead */
             <div className="absolute inset-0 flex flex-col justify-end bg-[radial-gradient(ellipse_at_top_left,rgba(11,102,35,0.08),transparent_60%)] p-5">
